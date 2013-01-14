@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/oms.cj.tube"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+  
+   	<!-- 
+   		Places to put views to display rotation remarks
+   		1. remarks for this Rotation 
+   	-->	
+    <TextSwitcher android:id="@+id/rotateremark"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+        
+	<include layout="@layout/adstub" />
+	
+   	<!-- 
+   		Places to put views to syn tube Rotation
+   		1. Past R, current R, Upcoming R 
+   	-->	
+   	<oms.cj.tube.flysymbol.FlySymbol 
+   		android:layout_height="wrap_content" 
+   		android:layout_width="fill_parent"
+   		android:orientation="horizontal"
+   		android:id="@+id/flysymbol"/>
+
+	<ViewStub  
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+   		android:id="@+id/playerviewstub"
+   		android:inflatedId="@+id/playerview"/>
+
+	<TableLayout android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center_horizontal"> 
+
+	<!--  
+  		<TableRow android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:gravity="center_horizontal">        
+    		<Button android:id="@+id/starttosolve" 
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:text="@string/starttosolve">
+    		</Button>    	
+    	</TableRow> 
+	-->      
+
+  		<TableRow android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:gravity="center_horizontal">    
+    		<ImageButton android:id="@+id/previousStep"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:src="@drawable/backward32x32">
+    		</ImageButton>
+    		<ImageButton android:id="@+id/play" 
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:src="@drawable/playpause">
+    		</ImageButton>
+    		<ImageButton android:id="@+id/reset" 
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:src="@drawable/reset32x32">
+    		</ImageButton>
+    		<ImageButton android:id="@+id/nextStep" 
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:src="@drawable/forward32x32">
+    		</ImageButton>
+  		</TableRow>
+  		  
+	</TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+<TableLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:stretchColumns="1,2,3">
+  <TableRow>
+	<include layout="@layout/solutiondetailstitle" />
+  </TableRow>
+  <TableRow>
+  	<ImageView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:src="@drawable/step7_a">
+  	</ImageView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="首先黄色面要朝向;\n自己;A = R2D'2R'U'\nRD'2R'UR' ">
+  	</TextView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text=" A ">
+  	</TextView>
+  	<Button android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="动画"
+  		android:id="@+id/step7_a">
+  	</Button>
+  </TableRow>
+  
+  <include layout="@layout/adstub" />
+   		
+  <TableRow>
+  	<ImageView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:src="@drawable/step7_b">
+  	</ImageView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="">
+  	</TextView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text=" AA ">
+  	</TextView>
+  	<Button android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="动画"
+  		android:id="@+id/step7_b">
+  	</Button>
+  </TableRow>
+  
+  <TextView android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:textSize="24dp"
+  		android:text="\n如果需要记忆的话，难点在于A；可以分成3份来记:(R2D'2R)(U'RD'2R'U)(R')\n"
+  		android:textStyle="bold">
+  </TextView>
+  	
+  <include layout="@layout/browsebuttonslayout"/>
+</TableLayout>
+
+</ScrollView>

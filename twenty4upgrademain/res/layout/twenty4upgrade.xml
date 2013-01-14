@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:orientation="vertical"
+	android:layout_height="fill_parent">
+
+    <TextView
+    	android:id="@+id/numberofoperandslabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请输入4个数字:">
+    </TextView>
+    
+	<include layout="@layout/adstub" />
+	    		
+  	<TableLayout 
+    	android:layout_width="fill_parent"  
+    	android:orientation="vertical"
+    	android:layout_height="fill_parent"
+    	android:id="@+id/twenty4layout">
+    	        
+    	<TableRow android:layout_height="wrap_content">
+    		<EditText
+        		android:id="@+id/firstnumber"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:maxLength="9"
+        		android:singleLine="true"
+        		android:numeric="signed"
+        		android:textSize="18sp">
+    		</EditText>
+    		<EditText
+        		android:id="@+id/secondnumber"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:maxLength="9"
+        		android:singleLine="true"
+        		android:numeric="signed" 
+        		android:textSize="18sp">
+    		</EditText>
+    		<EditText
+        		android:id="@+id/thirdnumber"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:maxLength="9"
+        		android:singleLine="true"
+        		android:numeric="signed"
+        		android:textSize="18sp">
+    		</EditText>    	
+    	</TableRow>
+    	    
+    	<TableRow android:layout_height="wrap_content">    
+    		<EditText
+        		android:id="@+id/fourthnumber"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:maxLength="9"
+        		android:singleLine="true"
+        		android:numeric="signed"
+        		android:textSize="18sp">
+    		</EditText>
+    		<EditText
+        		android:id="@+id/fifthnumber"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:maxLength="9"
+        		android:singleLine="true"
+        		android:numeric="signed"
+        		android:textSize="18sp">
+    		</EditText>
+    		<EditText
+        		android:id="@+id/sixthnumber"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:maxLength="9"
+        		android:singleLine="true"
+        		android:numeric="signed"
+        		android:textSize="18sp">
+    		</EditText>    	    	
+    	</TableRow>
+    
+    	<TableRow android:layout_height="wrap_content">    
+        	<Button android:id="@+id/addnumber" android:text="+" 
+	        	android:layout_width="wrap_content"/>
+    	    <Button android:id="@+id/removenumber" android:text="-" 
+        		android:layout_width="wrap_content"/>
+    		<Button
+        		android:id="@+id/submitButton"
+	        	android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="求解">
+    		</Button>    
+     	</TableRow>
+
+  </TableLayout>
+
+</LinearLayout>  

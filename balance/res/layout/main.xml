@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:adsdk="http://schemas.android.com/apk/res/oms.cj.balance"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:id="@+id/mainlayout"
+	android:background="@drawable/background">
+	    
+	<include layout="@layout/adstub" />
+    	  
+	<MyButton android:id="@+id/newgame" android:layout_width="130px" android:layout_height="wrap_content"    
+    	android:text="@string/newgame"
+    	android:layout_gravity="center">
+	</MyButton>  
+	<MyButton android:id="@+id/freecoins" android:layout_width="130px" android:layout_height="wrap_content"    
+    	android:text="@string/freecoins"
+    	android:layout_gravity="center">
+	</MyButton> 	
+	<MyButton android:id="@+id/records" android:layout_width="130px" android:layout_height="wrap_content"    
+    	android:text="@string/highscore"
+    	android:layout_gravity="center">
+	</MyButton>    
+	<MyButton android:id="@+id/the9records" android:layout_width="130px" android:layout_height="wrap_content"    
+    	android:text="@string/the9highscore"
+    	android:layout_gravity="center">
+	</MyButton>    
+	<MyButton android:id="@+id/configuration" android:layout_width="130px" android:layout_height="wrap_content" 
+    	android:text="@string/settings"
+    	android:layout_gravity="center">
+	</MyButton>  			     
+	<MyButton android:id="@+id/help" android:layout_width="130px" android:layout_height="wrap_content"    
+    	android:text="@string/help"
+    	android:layout_gravity="center">
+	</MyButton>    
+	<MyButton android:id="@+id/about" android:layout_width="130px" android:layout_height="wrap_content"    
+    	android:text="@string/about" android:visibility="gone"
+    	android:layout_gravity="center">
+	</MyButton>    
+	<MyButton android:id="@+id/exit" android:layout_width="130px" android:layout_height="wrap_content"    
+    	android:text="@string/quit"
+    	android:layout_gravity="center">
+	</MyButton>
+	
+</LinearLayout>

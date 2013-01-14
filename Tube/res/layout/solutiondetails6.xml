@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+	<TableLayout
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:shrinkColumns="1"
+  		android:stretchColumns="1,2">
+  		
+  		<TableRow>
+			<include layout="@layout/solutiondetailstitle" />
+  		</TableRow>
+  		
+  		<TableRow>
+  			<ImageView style="@style/wc"
+  				android:src="@drawable/step6_a"/>
+  			<TextView style="@style/wc"
+  				android:text="A=R'U'RU'R'U'U'R\n转鱼头右侧黄面至顶层;顶面总是逆时针转"/>
+  			<TextView style="@style/wc"
+  				android:text=" A"/>
+  			<Button style="@style/wc"
+  				android:text="动画"
+  				android:id="@+id/step6_a"/>
+  		</TableRow>
+  
+		<include layout="@layout/adstub" />
+   		
+  		<TableRow>
+		  	<ImageView style="@style/wc"
+  				android:src="@drawable/step6_b"/>
+  			<TextView style="@style/wc"
+  				android:text="B=FUF'UFUUF'\n转鱼头左侧黄面至顶层;顶面总是顺时针转"/>
+  			<TextView style="@style/wc"
+  				android:text=" B"/>
+  			<Button style="@style/wc"
+  				android:text="动画"
+  				android:id="@+id/step6_b"/>
+  		</TableRow>
+  		
+  		<TableRow>
+  			<ImageView style="@style/wc"
+  				android:src="@drawable/step6_c"/>
+  			<TextView style="@style/wc"
+  				android:text="选1非黄色块朝里；\n记住2后  "/>
+  			<TextView style="@style/wc"
+  				android:text="AB"/>
+  			<Button style="@style/wc"
+  				android:text="动画"
+  				android:id="@+id/step6_c"/>
+  		</TableRow>
+  		
+  		<TableRow>
+  			<ImageView style="@style/wc"
+  				android:src="@drawable/step6_d"/>
+  			<TextView style="@style/wc"
+  				android:text="选1非黄色块朝里；\n记住2后  "/>
+  			<TextView style="@style/wc"
+  				android:text="AB"/>
+  			<Button style="@style/wc"
+  				android:text="动画"
+  				android:id="@+id/step6_d"/>
+  		</TableRow>
+  		
+  		<TableRow>
+  			<ImageView style="@style/wc"
+  				android:src="@drawable/step6_e"/>
+  			<TextView style="@style/wc"
+  				android:text="选1非黄色块朝里；\n记住2后  "/>
+  			<TextView style="@style/wc"
+  				android:text="AB"/>
+  			<Button style="@style/wc"
+  				android:text="动画"
+  				android:id="@+id/step6_e"/>
+  		</TableRow>
+  		
+  		<TableRow>
+  			<ImageView style="@style/wc"
+  				android:src="@drawable/step6_f"/>
+  			<TextView style="@style/wc"
+  				android:text="选1非黄色块朝里；\n记住4左  "/>
+  			<TextView style="@style/wc"
+  				android:text="AA"/>
+  			<Button style="@style/wc"
+  				android:text="动画"
+  				android:id="@+id/step6_f"/>
+  		</TableRow>
+  		  
+  		<TableRow>
+  			<ImageView style="@style/wc"
+  				android:src="@drawable/step6_g"/>
+  			<TextView style="@style/wc"
+  				android:text="选1非黄色块朝里；\n记住4左  "/>
+  			<TextView style="@style/wc"
+  				android:text="AA"/>
+  			<Button style="@style/wc"
+  				android:text="动画"
+  				android:id="@+id/step6_g"/>
+  		</TableRow>   
+    
+  		<TextView style="@style/wc"
+  			android:textSize="24dp"
+  			android:text="\n本章的AB解法非常重要，在第九章它们会再次出现，请熟记\nA的顶面总是逆时针转，B的顶面总是顺时针转"/>
+  	     
+  		<include layout="@layout/browsebuttonslayout"/>
+  		
+	</TableLayout>
+
+</ScrollView>

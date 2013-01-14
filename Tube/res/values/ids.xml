@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="middleButtonminus5" type="id"></item>
+    <item name="middleButtonminus4" type="id"></item>
+    <item name="middleButtonminus3" type="id"></item>
+    <item name="middleButtonminus2" type="id"></item>
+	<item name="middleButtonminus1" type="id"></item>
+    <item name="middleButton" type="id"></item>
+    <item name="middleButtonplus1" type="id"></item>
+    <item name="middleButtonplus2" type="id"></item>
+    <item name="middleButtonplus3" type="id"></item>
+    <item name="middleButtonplus4" type="id"></item>
+	<item name="middleButtonplus5" type="id"></item>
+	<item name="playview" type="id"></item>
+	<item name="nulldrawable" type="drawable"></item>
+</resources>

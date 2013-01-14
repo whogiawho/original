@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:id="@+id/help" android:layout_height="fill_parent"
+    android:layout_width="fill_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" android:text="游戏规则"
+        android:textColor="#400080" android:textSize="20px"/>
+        
+	<include layout="@layout/adstub" />
+	   			          
+    <ScrollView android:layout_height="fill_parent"
+        android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:id="@+id/helptext"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent" android:textColor="#400080"/>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ff7a8a99">
+    <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content"
+    	android:layout_margin="1px" android:background="#00000000">
+        <ImageView	android:id="@+id/element00" style="@style/cell" android:layout_margin="1px"/>
+		<ImageView	android:id="@+id/element01" style="@style/cell" android:layout_margin="1px"/>
+		<ImageView	android:id="@+id/element02" style="@style/cell" android:layout_margin="1px"/>
+	</TableRow>
+    <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content"
+    	android:layout_margin="1px" android:background="#00000000">
+        <ImageView	android:id="@+id/element10" style="@style/cell" android:layout_margin="1px"/>
+		<ImageView	android:id="@+id/element11" style="@style/cell" android:layout_margin="1px"/>
+		<ImageView	android:id="@+id/element12" style="@style/cell" android:layout_margin="1px"/>
+	</TableRow>
+	<TableRow android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:layout_margin="1px" android:background="#00000000">
+        <ImageView	android:id="@+id/element20" style="@style/cell" android:layout_margin="1px"/>
+		<ImageView	android:id="@+id/element21" style="@style/cell" android:layout_margin="1px"/>
+		<ImageView	android:id="@+id/element22" style="@style/cell" android:layout_margin="1px"/>
+	</TableRow>
+</TableLayout>

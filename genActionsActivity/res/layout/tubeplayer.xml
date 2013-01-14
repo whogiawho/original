@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/oms.cj.tubetutor2"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<oms.cj.tubeview.TubeView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+   	android:id="@+id/tubeview"/>
+
+<LinearLayout android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal">    
+    <Button android:id="@+id/previousStep"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="上步">
+    </Button>
+    <Button android:id="@+id/play" 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="播放">
+    </Button>
+    <Button android:id="@+id/reset" 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="开头">
+    </Button>
+    <Button android:id="@+id/nextStep" 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="下步">
+    </Button>
+</LinearLayout>
+
+</LinearLayout>

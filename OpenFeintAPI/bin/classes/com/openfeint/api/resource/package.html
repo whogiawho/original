@@ -1,0 +1,147 @@
+<body>
+<p>This package contains all the classes that you use to send requests to OpenFeint servers.</p>
+
+<p>Each class in this package models a Resource - an object that lives on the
+OpenFeint servers, and has properties that can be transferred back and
+forth between the client and the server.  For example, the Achievement
+class allows you to model the achievements that the OpenFeint server
+knows about and perform operations on them (like unlocking them for
+the current user, or getting the achievement icon, etc).</p>
+
+<h4>The Resource Classes</h4>
+<table width="80%" border="1">
+<tr>
+	<th>Class</th>
+	<th>Created by</th>
+	<th>Can be updated by game</th>
+	<th>Owner(s)</th>
+	<th>Access by ID</th>
+</tr>
+<tr>
+	<td>Achievement</td>
+	<td>Game developer using Developer Dashboard</td>
+	<td>Yes</td>
+	<td>Game/user</td>
+	<td>Yes</td>
+</tr>
+<tr>
+	<td>CloudStorage</td>
+	<td>Game by saving</td>
+	<td>Yes</td>
+	<td>Game/user</td>
+	<td>No; access by key</td>
+</tr>
+<tr>
+	<td>CurrentUser</td>
+	<td>User login</td>
+	<td>No</td>
+	<td>OpenFeint</td>
+	<td>Yes</td>
+</tr>
+<tr>
+	<td>Leaderboard</td>
+	<td>Game developer using Developer Dashboard</td>
+	<td>Yes</td>
+	<td>Game/user</td>
+	<td>Yes</td>
+</tr>
+<tr>
+	<td>Score</td>
+	<td>Game</td>
+	<td>Yes</td>
+	<td>Game/user</td>
+	<td>No</td>
+</tr>
+<tr>
+	<td>ServerTimestamp</td>
+	<td>OpenFeint</td>
+	<td>No</td>
+	<td>OpenFeint</td>
+	<td>No; just get current time</td>
+</tr>
+<tr>
+	<td>User</td>
+	<td>User</td>
+	<td>No</td>
+	<td>OpenFeint</td>
+	<td>Yes</td>
+</tr>
+</table>
+
+<h4>Callbacks</h4>
+
+<p>All network requests are asynchronous.  </p>
+
+<p>The way that asynchronous calls work is that they initialize and start a
+network request, and then return immediately.  This prevents your
+application from hanging or having an ANR crash.  When the request
+completes, it will call the callback you specified.  It is the callback that lets you know
+when the request is done.</p>
+
+<p>Because resource requests are asynchronous, code like the following will not work:</p>
+
+<table border=1 width="80%">
+<tr><td>&nbsp;&nbsp;&nbsp;DON'T DO THIS!!!&nbsp;&nbsp;&nbsp;</td><td><pre>
+<br>&nbsp;&nbsp;perfectMatch.load(null);
+&nbsp;&nbsp;// The following line will break because perfectMatch.title is still null!
+&nbsp;&nbsp;Log.v("", "perfectMatch's title is: " + perfectMatch.title);</pre></td></tr></table>
+
+
+<h4>Overriding Callback Methods</h4>
+
+Each callback class has some variant of <code>onSuccess()</code> that you can
+override.  Some resource methods (such as <code>Achievement.list</code>) fetch data  that
+will be passed in as a parameter to your callback.  Some methods
+operate on an instance of the resource class, and may modify or send
+its fields to the server.  Check the documentation for each method to
+be sure.
+
+<p>Each callback class also provides the <code>onFailure(String)</code> method.  This
+method will be called when a network request fails.  Usually, this is
+due to a network failure, but this can also indicate error conditions
+in your code.</p>
+For instance, if you attempted to call <code>load()</code> on an
+Achievement that you constructed with an invalid resource ID, you'd
+get an error message back from the server telling you that the
+achievement couldn't be found.  Overriding <code>onFailure(String)</code> and
+placing breakpoints in it is a good place to start if you're getting
+unexpected results from the API.
+
+<h4>Using Resources Created on the Developer Dashboard</h4>
+
+Before you use them in your game, you must create <b>leaderboards</b> and <b>achievements</b> on the Developer Dashboard.  
+The IDs of resources that were created on the Developer Dashboard can be found on the Developer Dashboard.  For example, if you create an achievement
+called <b>Perfect Match</b> on the Developer Dashboard, you'll see its ID listed under the <b>Unique ID</b> column on your achievements list.  It will be 
+a long string of numbers, like <code>867732</code>.  
+<p>You use the leaderboard or achievement ID to retrieve high scores and achievements and to update high scores, update progress on achievements, and unlock achievements.</p>
+<p>To perform operations on a resource, you typically create a local
+model by constructing one with the resource ID of the resource:</p>
+
+<p><code>final Achievement perfectMatch = new Achievement("867732");</code></p>
+
+<h4>Network requests</h4>
+
+<p>At this point, the local <code>perfectMatch</code> instance doesn't have any other
+information other than its resource ID.  But, because you know its resource ID,
+you can request that OpenFeint load the rest of its data:</p>
+
+<p><code>perfectMatch.load(new Achievement.LoadCB() {<br>
+&nbsp;&nbsp;public void onSuccess() {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;// At this point, fields are loaded.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Log.v("", "perfectMatch's title is: " + perfectMatch.title);<br>
+&nbsp;&nbsp;}<br>
+});</code></p>
+
+<p>After perfectMatch is loaded, its title, description, gamerscore,
+etc. fields will be filled out.  Most resources have a method like
+this.</p>
+
+
+<h4>Using Resources Created by Games</h4>
+You can obtain a list of keys of CloudStorage blobs that belong to the currently logged in user of your game.  You retrieve and save data to a CloudStorage blob using its key.
+
+<h4>Resources That Cannot be Set by Games</h4>
+The CurrentUser, User, and ServerTimestamp resources are read-only for games.  
+
+<h4>For specific information about the OpenFeint resource classes, please see the Javadoc.</h4>
+</body>

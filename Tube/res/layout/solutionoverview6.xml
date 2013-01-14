@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+<LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+  
+  <TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dip"
+    android:textSize="24dip"
+    android:text="除了全是黄色，仅有7种可能" 
+    android:layout_gravity="center_horizontal"/>	  
+  
+  <include layout="@layout/adstub" />
+   		
+  <ImageView android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:src="@drawable/possibilities6" />
+  		
+  <TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dip"
+    android:text="提示：\n1. 第1和2种情况对称\n2. 第3-7种情况可以转化成第1或2种情况 \n3. 解1和2时，鱼头要朝里\n4. 解3-7时，记住“2后4左”；情况345有2个顶面非黄块且左后角块黄色面朝后，所以是“2后”；情况67有 4个顶面非黄块且左后角块黄色面朝左，所以是“4左”" 
+    android:layout_gravity="center_horizontal"/>	 
+  
+  <include layout="@layout/browsebuttonslayout"/> 		
+</LinearLayout>
+
+</ScrollView>

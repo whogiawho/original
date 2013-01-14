@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+<TableLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:shrinkColumns="1"
+  android:stretchColumns="1,2">
+  <TableRow>
+	<include layout="@layout/solutiondetailstitle" />
+  </TableRow>
+  <TableRow>
+  	<ImageView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:src="@drawable/step4_a">
+  	</ImageView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="A=URU'R'\nB=U'F'UF ">
+  	</TextView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="AB">
+  	</TextView>
+  	<Button android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="动画"
+  		android:id="@+id/step4_a">
+  	</Button>
+  </TableRow>
+  <TableRow>
+  	<ImageView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:src="@drawable/step4_b">
+  	</ImageView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="   ">
+  	</TextView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="BA">
+  	</TextView>
+  	<Button android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="动画"
+  		android:id="@+id/step4_b">
+  	</Button>
+  </TableRow>
+  
+  <include layout="@layout/adstub" />
+   		
+  <TableRow>
+  	<ImageView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:src="@drawable/step4_c">
+  	</ImageView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="BA做两次  ">
+  	</TextView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="转化为第2种情况">
+  	</TextView>
+  	<Button android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="动画"
+  		android:id="@+id/step4_c">
+  	</Button>
+  </TableRow>    
+   
+  <TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="提示：\n1. 如果需要记忆的话,要点是4个动作一组,共两组动作AB\n2. 1的答案是AB，2的答案是BA，3的答案是BABA" 
+    android:layout_gravity="center_horizontal"/>	
+    
+  <include layout="@layout/browsebuttonslayout"/>    
+</TableLayout>
+
+</ScrollView>

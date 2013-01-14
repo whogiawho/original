@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, twenty4upgrade!</string>
+    <string name="app_name">快乐24-3</string>
+<string name="four">4</string>
+
+<string name="five">5</string>
+<string name="six">6</string>
+
+<string name="fmtGameName">游戏名：%s\n</string>
+<string name="fmtVersion">版本号：%s\n</string>
+<string name="fmtReleaser">发行商：%s\n</string>
+<string name="fmtDeveloper">开发商：%s\n</string>
+<string name="fmtPhone">客服电话：%s\n</string>
+<string name="fmtEmail">客服email：%s\n</string>
+
+<string name="Releaser">上海第九城市信息技术有限公司</string>
+<string name="Developer">陈剑</string>
+<string name="Phone">021-51729118</string>
+<string name="Email">service@m.the9.com</string>
+    
+<string name="fmtAuthor">作者：%s\n</string>
+<string name="fmtAuthorEmail">电邮：%s\n</string>
+<string name="fmtCopyrightPeriod">版权所有    %s\n</string>
+<string name="fmtLicense">本游戏遵循%s License\n</string>
+
+<string name="Author">陈剑</string>
+
+</resources>

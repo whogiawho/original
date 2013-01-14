@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/symbolrep">
+    
+  <LinearLayout
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+  	android:orientation="vertical">  
+  	
+    <ImageView 
+    	style="@style/wc"
+    	android:layout_gravity="center_horizontal"
+  		android:src="@drawable/coordinateright" />
+
+	<include layout="@layout/adstub" />
+   		
+   	<TextView android:layout_width="wrap_content" android:paddingTop="5dip"
+    	android:layout_height="wrap_content"
+    	android:text="L,M,R绕X轴转，U,E,D绕Y轴转，B,S,F绕Z轴转；观察点确定之后，顺逆时针也就确定了；规定观察点在各轴正向无穷远处，所以我们有如下符号表示：" />
+    
+    <TableLayout
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:shrinkColumns="1"
+  		android:stretchColumns="0,1">
+  		<TableRow>
+			<include layout="@layout/rotatesymbolreptitle" />
+  		</TableRow>		
+  		
+  		<TableRow>
+  			<TextView style="@style/wc"
+  				android:text="L, M, R, B, S, F, U, E, D"/>
+  			<TextView style="@style/wc"
+  				android:text="顺时针转90度"/>  				
+  		  	<Button style="@style/wc"
+  				android:text="动画"
+  				android:id="@+id/cw1R90"/>		
+  		</TableRow>
+  		
+  		<TableRow>
+  			<TextView style="@style/wc"
+  				android:text="L',M',R',B',S',F',U',E',D'"/>
+  			<TextView style="@style/wc"
+  				android:text="逆时针转90度;逆='"/>  				
+  		  	<Button style="@style/wc"
+  				android:text="动画"
+  				android:id="@+id/ccw1R90"/>		
+  		</TableRow>
+
+  		<TableRow>
+  			<TextView style="@style/wc"
+  				android:text="L2,M2,R2,B2,S2,F2,\nU2,E2,D2"/>
+  			<TextView style="@style/wc"
+  				android:text="顺时针转180度;逆时针转180度呢？"/>  				
+  		  	<Button style="@style/wc"
+  				android:text="动画"
+  				android:id="@+id/cw1R180"/>		
+  		</TableRow>
+  		
+  		<TableRow>
+  			<TextView style="@style/wc"
+  				android:text="x,y,z"/>
+  			<TextView style="@style/wc"
+  				android:text="x',y',z'呢？"/>  				
+  		  	<Button style="@style/wc"
+  				android:text="动画"
+  				android:id="@+id/cw3R90"/>		
+  		</TableRow>
+
+  		<TableRow>
+  			<TextView style="@style/wc"
+  				android:text="l,r,u,d,b,f"/>
+  			<TextView style="@style/wc"
+  				android:text="l',r',u',d',b',f'呢？"/>  				
+  		  	<Button style="@style/wc"
+  				android:text="动画"
+  				android:id="@+id/cw2R90"/>		
+  		</TableRow>
+  		
+  	</TableLayout>
+	
+	<include layout="@layout/browsebuttonslayout"/>	
+    
+  </LinearLayout>		
+
+</ScrollView>

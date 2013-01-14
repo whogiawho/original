@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="TubeCheckError">
+    <item>检查通过，请按完成按钮继续！</item>
+    <item>您设置了%1$d个%2$s色面！其实应该有9个！</item>
+    <item>黄白、红橙和蓝绿中心面必须相对！</item>
+    <item>存在某个小方块有同色面！</item>
+    <item>中心块黄白红橙蓝绿必须各有1个！</item>
+    <item>每种颜色必须有1个面！</item>
+    <item>不是所有12个棱色块都出现1次！</item>
+    <item>翻转错：某个棱色块颜色必须翻转！</item>
+    <item>不是所有8个角色块都出现1次！</item>
+    <item>旋转错：某个角色块必须旋转！</item>
+    <item>校验错：2个角色块或棱色块必须交换位置！</item>
+</string-array>
+
+<string-array name="sides">
+    <item>前</item>
+    <item>右</item>
+    <item>后</item>
+    <item>左</item>
+    <item>顶</item>
+    <item>底</item>
+</string-array>
+
+<string-array name="scan">
+    <item>扫描中 ... </item>
+    <item>扫描完毕!</item>
+</string-array>
+
+</resources>

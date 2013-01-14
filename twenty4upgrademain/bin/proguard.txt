@@ -1,0 +1,39 @@
+# view AndroidManifest.xml #generated:48
+-keep class com.waps.OffersWebView { <init>(...); }
+
+# view AndroidManifest.xml #generated:31
+-keep class com.wooboo.adlib_android.AdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class com.wooboo.adlib_android.FullActivity { <init>(...); }
+
+# view res/layout/woobooadview.xml #generated:2
+-keep class com.wooboo.adlib_android.WoobooAdView { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class com.wostore.adsdk.ADFSView { <init>(...); }
+
+# view res/layout/adstub.xml #generated:21
+-keep class com.wostore.adsdk.ADSdkView { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class net.youmi.android.AdActivity { <init>(...); }
+
+# view res/layout/youmiadview.xml #generated:2
+-keep class net.youmi.android.AdView { <init>(...); }
+
+# view AndroidManifest.xml #generated:53
+-keep class oms.cj.ads.MMInterstitialActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:25
+-keep class oms.cj.twenty4upgrade.caltwenty4 { <init>(...); }
+
+# view AndroidManifest.xml #generated:26
+-keep class oms.cj.twenty4upgrade.config { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class oms.cj.twenty4upgrade.twenty4upgrade { <init>(...); }
+
+# view AndroidManifest.xml #generated:17
+-keep class oms.cj.twenty4upgrade.twenty4upgrademain { <init>(...); }
+

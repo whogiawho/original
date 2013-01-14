@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="TubeCheckError">
+    <item>Check pass, pls click Complete to continue！</item>
+    <item>%1$d %2$s faces instead of 9 are set！</item>
+    <item>Yellow and White, Red and Orange, Blue and Green must be opposite！</item>
+    <item>There exist one Cube with identical color face！</item>
+    <item>There must be exactly one face at center for Yellow, White, Red, Orange, Blue and Green！</item>
+    <item>There is not exactly one facelet of each colour！</item>
+    <item>Not all 12 edges exist exactly once！</item>
+    <item>Flip error: One edge has to be flipped！</item>
+    <item>Not all 8 corners exist exactly once！</item>
+    <item>Twist error: One corner has to be twisted！</item>
+    <item>Parity error: Two corners or two edges have to be exchanged！</item>
+</string-array>
+<string-array name="sides">
+    <item>Front</item>
+    <item>Right</item>
+    <item>Back</item>
+    <item>Left</item>
+    <item>Top</item>
+    <item>Bottom</item>
+</string-array>
+
+<string-array name="scan">
+    <item>Scanning ... </item>
+    <item>Scan Complete!</item>
+</string-array>
+</resources>

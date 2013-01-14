@@ -1,0 +1,18 @@
+01-12 10:26:40.779: E/WindowManager(1073): Activity oms.cj.tube.MainActivity has leaked window android.widget.PopupWindow$PopupViewContainer@438698a8 that was originally added here
+01-12 10:26:40.779: E/WindowManager(1073): android.view.WindowLeaked: Activity oms.cj.tube.MainActivity has leaked window android.widget.PopupWindow$PopupViewContainer@438698a8 that was originally added here
+01-12 10:26:40.779: E/WindowManager(1073): 	at android.view.ViewRoot.<init>(ViewRoot.java:214)
+01-12 10:26:40.779: E/WindowManager(1073): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:148)
+01-12 10:26:40.779: E/WindowManager(1073): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:91)
+01-12 10:26:40.779: E/WindowManager(1073): 	at android.view.Window$LocalWindowManager.addView(Window.java:409)
+01-12 10:26:40.779: E/WindowManager(1073): 	at android.widget.PopupWindow.invokePopup(PopupWindow.java:820)
+01-12 10:26:40.779: E/WindowManager(1073): 	at android.widget.PopupWindow.showAtLocation(PopupWindow.java:688)
+01-12 10:26:40.779: E/WindowManager(1073): 	at com.wooboo.adlib_android.e.handleMessage(e.java)
+01-12 10:26:40.779: E/WindowManager(1073): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+01-12 10:26:40.779: E/WindowManager(1073): 	at android.os.Looper.loop(Looper.java:123)
+01-12 10:26:40.779: E/WindowManager(1073): 	at android.app.ActivityThread.main(ActivityThread.java:4203)
+01-12 10:26:40.779: E/WindowManager(1073): 	at java.lang.reflect.Method.invokeNative(Native Method)
+01-12 10:26:40.779: E/WindowManager(1073): 	at java.lang.reflect.Method.invoke(Method.java:521)
+01-12 10:26:40.779: E/WindowManager(1073): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:791)
+01-12 10:26:40.779: E/WindowManager(1073): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:549)
+01-12 10:26:40.779: E/WindowManager(1073): 	at dalvik.system.NativeStart.main(Native Method)
+

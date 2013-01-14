@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+	<TableLayout
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:shrinkColumns="1"
+    	android:stretchColumns="1,2">
+  		
+  		<TableRow android:layout_width="fill_parent">
+			<include layout="@layout/solutiondetailstitle" />
+  		</TableRow>
+  		
+  		<TableRow android:layout_width="fill_parent">
+  			<ImageView android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:src="@drawable/step5_a">
+  			</ImageView>
+  			<TextView android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:text="A=FRU,\nB=R'U'F'\n黄竖条定要和你平行">
+  			</TextView>
+  			<TextView android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:text=" AB ">
+  			</TextView>
+  			<Button android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:text="动画"
+  				android:id="@+id/step5_a">
+  			</Button>
+  		</TableRow>
+
+		<include layout="@layout/adstub" />
+   		 
+		<TableRow android:layout_width="fill_parent">
+			<ImageView android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:src="@drawable/step5_b">
+  			</ImageView>
+  			<TextView android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:text="AB使用了2次  ">
+  			</TextView>
+  			<TextView android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:text=" ABAB ">
+  			</TextView>
+  			<Button android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:text="动画"
+  				android:id="@+id/step5_b">
+  			</Button>
+  		</TableRow>
+  
+		<TableRow android:layout_width="fill_parent">
+  			<ImageView android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:src="@drawable/step5_c">
+  			</ImageView>
+  			<TextView android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:text="AB使用了3次  ">
+  			</TextView>
+  			<TextView android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:text=" ABABAB ">
+  			</TextView>
+  			<Button android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:text="动画"
+  				android:id="@+id/step5_c">
+  			</Button>
+  		</TableRow>
+
+		<include layout="@layout/browsebuttonslayout"/>
+	
+	</TableLayout>
+
+</ScrollView>

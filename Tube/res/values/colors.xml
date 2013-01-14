@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="red">#ff89000d</color>
+<color name="white">#ffbdbdbe</color>
+<color name="green">#ff00722d</color>
+<color name="orange">#ffff4400</color>
+<color name="blue">#ff003171</color>
+<color name="yellow">#fffdd000</color>
+<color name="purple">#ffa349a4</color>
+<color name="disabled_text">#FF280000</color>
+<color name="button_text">#FFFFA400</color>
+<color name="button_text_pressed">#FFDF5400</color>
+<color name="transparentDark">#64000000</color>
+<color name="opaque">#ff000000</color>
+<color name="transparent">#00000000</color>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/oms.cj.tube"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<oms.cj.tube.tutor.TutorPlayer
+	android:id="@+id/tutorplayer"
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+
+   	app:commandsfile="@string/symbolrep4"
+   	app:heightpercent="0.70"
+   	app:rotatecube="true"
+   	app:rotateface="false"/>
+   	
+  <LinearLayout android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="right">    
+    <Button android:id="@+id/previous"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="返回">
+    </Button>
+  </LinearLayout>  		
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+<LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:id="@+id/object4">
+  
+  <TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dip"
+    android:textSize="32dip"
+    android:text="本章目标" 
+    android:layout_gravity="center_horizontal"/>	  
+  
+  <include layout="@layout/adstub" />
+   		
+  <ImageView android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:src="@drawable/object4" />
+  		
+  <TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dip"
+    android:text="前章完成白面复原和成4侧面T字形\n在前章基础上本章要成4侧面2层复原\n黄白永远相对，白色面翻到了看不见的底层" 
+    android:layout_gravity="center_horizontal"/>	 
+     
+  <include layout="@layout/browsebuttonslayout"/>
+</LinearLayout>
+
+</ScrollView>

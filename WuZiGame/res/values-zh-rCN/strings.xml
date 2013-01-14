@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="hello">Hello World, WuZiGame!</string>
+<string name="app_name">cr五子棋</string>
+<string name="black">执黑先行</string>
+
+<string name="white">执白后行</string>
+<string name="xianhoushou">先后手</string>
+<string name="easy">1</string>
+<string name="medium">2</string>
+<string name="littlehard">3</string>
+<string name="hard">4</string>
+<string name="impossible">5</string>
+<string name="difficulty">难度</string>
+
+<string name="strategy">策略</string>
+<string name="attack">进攻</string>
+<string name="defend">防守</string>
+<string name="adbalance">攻守平衡</string>
+<string name="jinshou">黑棋禁手</string>
+<string name="checksansan">三三禁</string>
+<string name="checksisi">四四禁</string>
+<string name="checkchanglian">长连禁</string>
+<string name="voiceswitch">背景音乐</string>
+<string name="voiceon">开</string>
+<string name="voiceoff">关</string>
+<string name="soundeffects">声效</string>
+<string name="soundon">开</string>
+<string name="soundoff">关</string>
+<color name="testcolor1">#ff0000</color>
+<color name="testcolor2">#ff0000</color>
+<color name="testcolor3">#ff0000</color>
+<color name="testcolor4">#ff0000</color>
+<color name="testcolor5">#0000ff</color>
+<string name="ok">确定</string>
+<string name="whattodowhenhitboard">点击棋盘时</string>
+<string name="movefocusonly">仅移动光标</string>
+<string name="movefocusandluozi">移动光标且落子</string>
+
+<string name="fmtGameName">游戏名：%s\n</string>
+<string name="fmtVersion">版本号：%s\n</string>
+<string name="fmtReleaser">发行商：%s\n</string>
+<string name="fmtDeveloper">开发商：%s\n</string>
+<string name="fmtPhone">客服电话：%s\n</string>
+<string name="fmtEmail">客服email：%s\n</string>
+
+<string name="Releaser">上海第九城市信息技术有限公司</string>
+<string name="Developer">陈剑</string>
+<string name="Phone">021-51729118</string>
+<string name="Email">service@m.the9.com</string>
+    
+<string name="fmtAuthor">作者：%s\n</string>
+<string name="fmtAuthorEmail">电邮：%s\n</string>
+<string name="fmtCopyrightPeriod">版权所有    %s\n</string>
+<string name="fmtLicense">本游戏遵循%s License\n</string>
+
+<string name="Author">陈剑</string>
+</resources>

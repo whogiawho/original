@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/oms.cj.tube"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<oms.cj.tube.tutor.TutorPlayer
+	android:id="@+id/tutorplayer"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    app:cube0backColor="@color/orange"
+    app:cube0leftColor="@color/blue"
+    app:cube0bottomColor="@color/white"
+    app:cube1backColor="@color/orange"
+    app:cube1bottomColor="@color/white"
+    app:cube2backColor="@color/orange"
+    app:cube2rightColor="@color/green"
+    app:cube2bottomColor="@color/white"
+    app:cube3leftColor="@color/blue"
+    app:cube3backColor="@color/orange"
+   	app:cube4backColor="@color/orange"
+   	app:cube5backColor="@color/orange"
+   	app:cube5rightColor="@color/green"
+   	app:cube7topColor="@color/yellow"
+   	
+   	app:cube9leftColor="@color/blue"
+   	app:cube9bottomColor="@color/white"
+   	app:cube10bottomColor="@color/white"
+   	app:cube11rightColor="@color/green"
+   	app:cube11bottomColor="@color/white"
+   	app:cube12leftColor="@color/blue"
+   	app:cube14rightColor="@color/green"
+   	app:cube15leftColor="@color/yellow"
+   	app:cube16topColor="@color/yellow"
+   	app:cube17rightColor="@color/yellow"
+   	
+    app:cube18leftColor="@color/blue"
+   	app:cube18bottomColor="@color/white"
+   	app:cube18frontColor="@color/red"
+   	app:cube19bottomColor="@color/white"
+   	app:cube19frontColor="@color/red"
+   	app:cube20frontColor="@color/red"
+   	app:cube20rightColor="@color/green"
+   	app:cube20bottomColor="@color/white"	
+   	app:cube21leftColor="@color/blue"
+   	app:cube21frontColor="@color/red"
+   	app:cube22frontColor="@color/red"	
+   	app:cube23frontColor="@color/red"
+   	app:cube23rightColor="@color/green"
+   	app:cube25topColor="@color/yellow"
+
+   	app:commandsfile="@string/step5.1"
+   	app:heightpercent="0.70"
+   	app:rotatecube="true"
+   	app:rotateface="false"/>
+   	
+  <LinearLayout android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="right">    
+    <Button android:id="@+id/previous"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="返回">
+    </Button>
+  </LinearLayout>  		
+</LinearLayout>

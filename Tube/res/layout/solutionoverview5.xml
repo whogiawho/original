@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+<LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+  
+  <TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dip"
+    android:textSize="24dip"
+    android:text="只可能存在3种可能" 
+    android:layout_gravity="center_horizontal"/>	  
+  
+  <include layout="@layout/adstub" />
+   		
+  <ImageView android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:src="@drawable/possibilities5" />
+  		
+  <TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dip"
+    android:text="提示：\n1. 2可以转化为1\n2. 3可以转化为2再化为1\n3. 所以关键在于求解1 " 
+    android:layout_gravity="center_horizontal"/>	 
+  
+  <include layout="@layout/browsebuttonslayout"/>		
+</LinearLayout>
+
+</ScrollView>

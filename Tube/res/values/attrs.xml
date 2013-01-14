@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="TubePlayer">
+        <attr name="cube0leftColor" format="color" />
+        <attr name="cube0rightColor" format="color" />
+        <attr name="cube0bottomColor" format="color" />
+        <attr name="cube0topColor" format="color" />
+        <attr name="cube0backColor" format="color" />
+        <attr name="cube0frontColor" format="color" />
+        
+        <attr name="cube1leftColor" format="color" />
+        <attr name="cube1rightColor" format="color" />
+        <attr name="cube1bottomColor" format="color" />
+        <attr name="cube1topColor" format="color" />
+        <attr name="cube1backColor" format="color" />
+        <attr name="cube1frontColor" format="color" />
+        
+        <attr name="cube2leftColor" format="color" />
+        <attr name="cube2rightColor" format="color" />
+        <attr name="cube2bottomColor" format="color" />
+        <attr name="cube2topColor" format="color" />
+        <attr name="cube2backColor" format="color" />
+        <attr name="cube2frontColor" format="color" />
+        
+        <attr name="cube3leftColor" format="color" />
+        <attr name="cube3rightColor" format="color" />
+        <attr name="cube3bottomColor" format="color" />
+        <attr name="cube3topColor" format="color" />
+        <attr name="cube3backColor" format="color" />
+        <attr name="cube3frontColor" format="color" />
+        
+        <attr name="cube4leftColor" format="color" />
+        <attr name="cube4rightColor" format="color" />
+        <attr name="cube4bottomColor" format="color" />
+        <attr name="cube4topColor" format="color" />
+        <attr name="cube4backColor" format="color" />
+        <attr name="cube4frontColor" format="color" />
+
+        <attr name="cube5leftColor" format="color" />
+        <attr name="cube5rightColor" format="color" />
+        <attr name="cube5bottomColor" format="color" />
+        <attr name="cube5topColor" format="color" />
+        <attr name="cube5backColor" format="color" />
+        <attr name="cube5frontColor" format="color" />
+        
+        <attr name="cube6leftColor" format="color" />
+        <attr name="cube6rightColor" format="color" />
+        <attr name="cube6bottomColor" format="color" />
+        <attr name="cube6topColor" format="color" />
+        <attr name="cube6backColor" format="color" />
+        <attr name="cube6frontColor" format="color" />
+        
+        <attr name="cube7leftColor" format="color" />
+        <attr name="cube7rightColor" format="color" />
+        <attr name="cube7bottomColor" format="color" />
+        <attr name="cube7topColor" format="color" />
+        <attr name="cube7backColor" format="color" />
+        <attr name="cube7frontColor" format="color" />
+        
+        <attr name="cube8leftColor" format="color" />
+        <attr name="cube8rightColor" format="color" />
+        <attr name="cube8bottomColor" format="color" />
+        <attr name="cube8topColor" format="color" />
+        <attr name="cube8backColor" format="color" />
+        <attr name="cube8frontColor" format="color" />
+        
+        <attr name="cube9leftColor" format="color" />
+        <attr name="cube9rightColor" format="color" />
+        <attr name="cube9bottomColor" format="color" />
+        <attr name="cube9topColor" format="color" />
+        <attr name="cube9backColor" format="color" />
+        <attr name="cube9frontColor" format="color" />
+        
+        <attr name="cube10leftColor" format="color" />
+        <attr name="cube10rightColor" format="color" />
+        <attr name="cube10bottomColor" format="color" />
+        <attr name="cube10topColor" format="color" />
+        <attr name="cube10backColor" format="color" />
+        <attr name="cube10frontColor" format="color" />
+        
+        <attr name="cube11leftColor" format="color" />
+        <attr name="cube11rightColor" format="color" />
+        <attr name="cube11bottomColor" format="color" />
+        <attr name="cube11topColor" format="color" />
+        <attr name="cube11backColor" format="color" />
+        <attr name="cube11frontColor" format="color" />
+        
+        <attr name="cube12leftColor" format="color" />
+        <attr name="cube12rightColor" format="color" />
+        <attr name="cube12bottomColor" format="color" />
+        <attr name="cube12topColor" format="color" />
+        <attr name="cube12backColor" format="color" />
+        <attr name="cube12frontColor" format="color" />
+        
+        <attr name="cube13leftColor" format="color" />
+        <attr name="cube13rightColor" format="color" />
+        <attr name="cube13bottomColor" format="color" />
+        <attr name="cube13topColor" format="color" />
+        <attr name="cube13backColor" format="color" />
+        <attr name="cube13frontColor" format="color" />
+        
+        <attr name="cube14leftColor" format="color" />
+        <attr name="cube14rightColor" format="color" />
+        <attr name="cube14bottomColor" format="color" />
+        <attr name="cube14topColor" format="color" />
+        <attr name="cube14backColor" format="color" />
+        <attr name="cube14frontColor" format="color" />
+        
+        <attr name="cube15leftColor" format="color" />
+        <attr name="cube15rightColor" format="color" />
+        <attr name="cube15bottomColor" format="color" />
+        <attr name="cube15topColor" format="color" />
+        <attr name="cube15backColor" format="color" />
+        <attr name="cube15frontColor" format="color" />
+        
+        <attr name="cube16leftColor" format="color" />
+        <attr name="cube16rightColor" format="color" />
+        <attr name="cube16bottomColor" format="color" />
+        <attr name="cube16topColor" format="color" />
+        <attr name="cube16backColor" format="color" />
+        <attr name="cube16frontColor" format="color" />
+        
+        <attr name="cube17leftColor" format="color" />
+        <attr name="cube17rightColor" format="color" />
+        <attr name="cube17bottomColor" format="color" />
+        <attr name="cube17topColor" format="color" />
+        <attr name="cube17backColor" format="color" />
+        <attr name="cube17frontColor" format="color" />
+        
+        <attr name="cube18leftColor" format="color" />
+        <attr name="cube18rightColor" format="color" />
+        <attr name="cube18bottomColor" format="color" />
+        <attr name="cube18topColor" format="color" />
+        <attr name="cube18backColor" format="color" />
+        <attr name="cube18frontColor" format="color" />
+        
+        <attr name="cube19leftColor" format="color" />
+        <attr name="cube19rightColor" format="color" />
+        <attr name="cube19bottomColor" format="color" />
+        <attr name="cube19topColor" format="color" />
+        <attr name="cube19backColor" format="color" />
+        <attr name="cube19frontColor" format="color" />
+        
+        <attr name="cube20leftColor" format="color" />
+        <attr name="cube20rightColor" format="color" />
+        <attr name="cube20bottomColor" format="color" />
+        <attr name="cube20topColor" format="color" />
+        <attr name="cube20backColor" format="color" />
+        <attr name="cube20frontColor" format="color" />
+        
+        <attr name="cube21leftColor" format="color" />
+        <attr name="cube21rightColor" format="color" />
+        <attr name="cube21bottomColor" format="color" />
+        <attr name="cube21topColor" format="color" />
+        <attr name="cube21backColor" format="color" />
+        <attr name="cube21frontColor" format="color" />
+        
+        <attr name="cube22leftColor" format="color" />
+        <attr name="cube22rightColor" format="color" />
+        <attr name="cube22bottomColor" format="color" />
+        <attr name="cube22topColor" format="color" />
+        <attr name="cube22backColor" format="color" />
+        <attr name="cube22frontColor" format="color" />
+        
+        <attr name="cube23leftColor" format="color" />
+        <attr name="cube23rightColor" format="color" />
+        <attr name="cube23bottomColor" format="color" />
+        <attr name="cube23topColor" format="color" />
+        <attr name="cube23backColor" format="color" />
+        <attr name="cube23frontColor" format="color" />
+        
+        <attr name="cube24leftColor" format="color" />
+        <attr name="cube24rightColor" format="color" />
+        <attr name="cube24bottomColor" format="color" />
+        <attr name="cube24topColor" format="color" />
+        <attr name="cube24backColor" format="color" />
+        <attr name="cube24frontColor" format="color" />
+        
+        <attr name="cube25leftColor" format="color" />
+        <attr name="cube25rightColor" format="color" />
+        <attr name="cube25bottomColor" format="color" />
+        <attr name="cube25topColor" format="color" />
+        <attr name="cube25backColor" format="color" />
+        <attr name="cube25frontColor" format="color" />
+        
+        <attr name="cube26leftColor" format="color" />
+        <attr name="cube26rightColor" format="color" />
+        <attr name="cube26bottomColor" format="color" />
+        <attr name="cube26topColor" format="color" />
+        <attr name="cube26backColor" format="color" />
+        <attr name="cube26frontColor" format="color" />
+        
+        <attr name="commandsfile" format="string" />
+        <attr name="heightpercent" format="float" />
+        <attr name="rotatecube" format="boolean" />
+        <attr name="rotateface" format="boolean" />
+        <attr name="randomized" format="boolean"/>
+        <attr name="override" format="boolean"/>
+    </declare-styleable>
+</resources>

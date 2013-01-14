@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<TableLayout 
+		style="@style/fpwc"
+		android:stretchColumns="*">
+		<TableRow 
+			style="@style/fpwc">
+			<TextView  
+    			style="@style/fpwc" 
+    			android:text="@string/floors"/>
+    		<EditText android:id="@+id/floors"
+				style="@style/fpwc" 
+    			android:maxLength="3"
+        		android:singleLine="true"
+        		android:numeric="signed"
+    			/>
+		</TableRow>
+		
+		<TableRow 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<TextView style="@style/fpwc"  
+    			android:text="@string/eggs"/>
+    		<EditText android:id="@+id/eggs"
+				style="@style/fpwc"
+    			android:maxLength="3"
+        		android:singleLine="true"
+        		android:numeric="signed"
+    			/>
+		</TableRow>
+		
+		<TableRow android:layout_height="wrap_content">    
+    		<Button 
+    			android:id="@+id/submit"
+        		style="@style/wcwc"
+        		android:text="@string/start">
+    		</Button>
+    		<Button 
+    			android:id="@+id/minmaxexample"
+        		style="@style/wcwc"
+        		android:text="@string/minmaxexample">
+    		</Button>    
+    		    
+     	</TableRow>
+
+		<TableRow android:layout_height="wrap_content">
+    		<TextView 
+    			android:text="@string/answers"
+        		style="@style/fpwc">
+    		</TextView>    		    
+    		<TextView 
+    			android:id="@+id/results"
+        		style="@style/fpwc">
+    		</TextView>    
+     	</TableRow>
+		
+		<TableRow android:layout_height="wrap_content">
+		</TableRow>
+		
+	</TableLayout>
+	
+	<TextView 
+       		style="@style/fpfp"
+       		android:id="@+id/example">
+    </TextView>    		    		
+	    
+</LinearLayout>

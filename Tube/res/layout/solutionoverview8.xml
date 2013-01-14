@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+<LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+  
+  <TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dip"
+    android:textSize="24dip"
+    android:text="只有4种情况需要考虑" 
+    android:layout_gravity="center_horizontal"/>	  
+  
+  <include layout="@layout/adstub" />
+   		
+  <ImageView android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:src="@drawable/possibilities8" />
+  		
+  <TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dip"
+    android:text="提示：\n1. 解1时，对好的颜色面放在前面\n2. 解2时，对好的颜色面放右面\n3. 第3和4种情况可以转化成第1或2种情况 " 
+    android:layout_gravity="center_horizontal"/>	 
+  
+  <include layout="@layout/browsebuttonslayout"/>		
+</LinearLayout>
+
+</ScrollView>

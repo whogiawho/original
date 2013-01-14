@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+<TableLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:shrinkColumns="1"
+  android:stretchColumns="1,2">
+  <TableRow>
+	<include layout="@layout/solutiondetailstitle" />
+  </TableRow>
+  <TableRow>
+  	<ImageView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:src="@drawable/step3_a">
+  	</ImageView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="W1=FD'F'">
+  	</TextView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="W1">
+  	</TextView>
+  	<Button android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="动画"
+  		android:id="@+id/step3_a">
+  	</Button>
+  </TableRow>
+  <TableRow>
+  	<ImageView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:src="@drawable/step3_b">
+  	</ImageView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="W2=R'DR  ">
+  	</TextView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="W2">
+  	</TextView>
+  	<Button android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="动画"
+  		android:id="@+id/step3_b">
+  	</Button>
+  </TableRow>
+  <TableRow>
+  	<ImageView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:src="@drawable/step3_c">
+  	</ImageView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="2次W1  ">
+  	</TextView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="C转化为A">
+  	</TextView>
+  	<Button android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="动画"
+  		android:id="@+id/step3_c">
+  	</Button>
+  </TableRow>
+  
+  <include layout="@layout/adstub" />
+   		
+  <TableRow>
+  	<ImageView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:src="@drawable/step3_d">
+  	</ImageView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="2次W2  ">
+  	</TextView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="D转化为B">
+  	</TextView>
+  	<Button android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="动画"
+  		android:id="@+id/step3_d">
+  	</Button>
+  </TableRow>
+  <TableRow>
+  	<ImageView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:src="@drawable/step3_e">
+  	</ImageView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="1次W2,2次W1  ">
+  	</TextView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="E转化为A">
+  	</TextView>
+  	<Button android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="动画"
+  		android:id="@+id/step3_e">
+  	</Button>
+  </TableRow>
+  <TableRow>
+  	<ImageView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:src="@drawable/step3_f">
+  	</ImageView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="3次W2  ">
+  	</TextView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="F转化为B">
+  	</TextView>
+  	<Button android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="动画"
+  		android:id="@+id/step3_f">
+  	</Button>
+  </TableRow>     
+       
+  <include layout="@layout/browsebuttonslayout"/>
+</TableLayout>
+
+</ScrollView>

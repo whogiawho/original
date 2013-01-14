@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<declare-styleable name="com.wooboo.adlib_android.WoobooAdView">
+		<attr name="backgroundColor" format="color" /> 
+		<attr name="textColor" format="color" />
+		<attr name="refreshInterval" format="integer" />
+		<attr name="testing" format="boolean" />			
+	</declare-styleable>
+   	<declare-styleable name="net.youmi.android.AdView">                      
+        <attr name="backgroundTransparent"  format="integer"/> 
+  	</declare-styleable>	
+
+</resources>

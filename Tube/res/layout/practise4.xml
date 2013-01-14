@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/oms.cj.tube"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:id="@+id/practise4">
+
+	<include layout="@layout/adstub" />
+   			  
+    <RelativeLayout 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+    	
+  		<TextView android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:text="恭喜你完成第5章学习!\n胜利就在前方，加油啊！"
+  			android:textStyle="bold" android:textColor="@color/yellow"
+  			android:textColorHighlight="@color/yellow" 
+  			android:textSize="24dp"
+  			android:layout_alignParentTop="true"
+  			android:layout_centerHorizontal="true"    			
+  			android:id="@+id/practisetitle"/>
+ 		
+  		<oms.cj.tube.tutor.TutorQuizView
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content" 
+   			app:randomized="false"
+   			app:heightpercent="0.80"   	
+   					
+			app:cube0backColor="@color/red"
+			app:cube1backColor="@color/red"
+			app:cube2backColor="@color/green"
+			app:cube3backColor="@color/orange"
+			app:cube4backColor="@color/orange"
+			app:cube5backColor="@color/green"
+			app:cube6backColor="@color/orange"
+			app:cube7backColor="@color/orange"
+			app:cube8backColor="@color/orange"
+			app:cube18frontColor="@color/green"
+			app:cube19frontColor="@color/orange"
+			app:cube20frontColor="@color/orange"
+			app:cube21frontColor="@color/yellow"
+			app:cube22frontColor="@color/red"
+			app:cube23frontColor="@color/blue"
+			app:cube24frontColor="@color/red"
+			app:cube25frontColor="@color/red"
+			app:cube26frontColor="@color/red"
+			app:cube0leftColor="@color/blue"
+			app:cube3leftColor="@color/green"
+			app:cube6leftColor="@color/green"
+			app:cube9leftColor="@color/orange"
+			app:cube12leftColor="@color/green"
+			app:cube15leftColor="@color/green"
+			app:cube18leftColor="@color/orange"
+			app:cube21leftColor="@color/blue"
+			app:cube24leftColor="@color/green"
+			app:cube2rightColor="@color/yellow"
+			app:cube5rightColor="@color/red"
+			app:cube8rightColor="@color/blue"
+			app:cube11rightColor="@color/yellow"
+			app:cube14rightColor="@color/blue"
+			app:cube17rightColor="@color/blue"
+			app:cube20rightColor="@color/yellow"
+			app:cube23rightColor="@color/red"
+			app:cube26rightColor="@color/blue"	
+			app:cube0bottomColor="@color/yellow"
+			app:cube1bottomColor="@color/yellow"
+			app:cube2bottomColor="@color/red"
+			app:cube9bottomColor="@color/yellow"
+			app:cube10bottomColor="@color/yellow"
+			app:cube11bottomColor="@color/green"
+			app:cube18bottomColor="@color/yellow"
+			app:cube19bottomColor="@color/blue"
+			app:cube20bottomColor="@color/blue"
+			app:cube6topColor="@color/white"
+			app:cube7topColor="@color/white"
+			app:cube8topColor="@color/white"
+			app:cube15topColor="@color/white"
+			app:cube16topColor="@color/white"
+			app:cube17topColor="@color/white"
+			app:cube24topColor="@color/white"
+			app:cube25topColor="@color/white"
+			app:cube26topColor="@color/white"
+			
+   			android:layout_below="@+id/practisetitle"
+   			android:id="@+id/practiseview"/>
+
+		<include layout="@layout/practisebuttons" />	  		
+    	
+    </RelativeLayout>  
+</LinearLayout>

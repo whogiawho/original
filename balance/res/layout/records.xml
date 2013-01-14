@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+  
+  <LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:paddingTop="20px">
+	
+	<!-- medium -->
+	<TextView style="@style/levelHeader" android:text="@string/medium"/>
+    <View style="@style/seperateLine"/>
+	<TableRow style="@style/wFPhWC">
+		<TextView style="@style/recordcell"
+			android:text="@string/order" 
+			android:id="@+id/headerorder"/>
+		<TextView style="@style/recordcell" 
+			android:text="@string/name" 
+			android:id="@+id/headername"/>
+		<TextView style="@style/recordcell" 
+			android:text="@string/score" 
+			android:id="@+id/headergrade"/>
+	</TableRow>
+
+	<include layout="@layout/adstub" /> 
+
+	<TableLayout 
+		android:id="@+id/recordlayout" 
+		style="@style/wFPhWC">
+	</TableLayout>
+	
+	<Button 
+		android:id="@+id/resetrecord" 
+		android:layout_width="130px" 
+		android:layout_height="wrap_content" 
+    	android:text="@string/reset"
+    	android:layout_gravity="center">
+	</Button>  
+
+	<!-- easy -->	
+	<TextView style="@style/levelHeader" android:text="@string/easy"/>
+    <View style="@style/seperateLine"/>
+	<TableRow style="@style/wFPhWC">
+		<TextView style="@style/recordcell" 
+			android:text="@string/order" 
+			android:id="@+id/headerorder_easy"/>
+		<TextView style="@style/recordcell" 
+			android:text="@string/name" 
+			android:id="@+id/headername_easy"/>
+		<TextView style="@style/recordcell" 
+			android:text="@string/score" 
+			android:id="@+id/headergrade_easy"/>
+	</TableRow>
+
+	<TableLayout 
+		android:id="@+id/recordlayout_easy" 
+		style="@style/wFPhWC">
+	</TableLayout>
+	
+	<Button 
+		android:id="@+id/resetrecord_easy" 
+		android:layout_width="130px" 
+		android:layout_height="wrap_content" 
+    	android:text="@string/reset"
+    	android:layout_gravity="center">
+	</Button>  
+	
+	<!-- hard -->
+	<TextView style="@style/levelHeader" android:text="@string/hard"/>
+    <View style="@style/seperateLine"/>
+	<TableRow style="@style/wFPhWC">
+		<TextView style="@style/recordcell" 
+			android:text="@string/order" 
+			android:id="@+id/headerorder_hard"/>
+		<TextView style="@style/recordcell" 
+			android:text="@string/name" 
+			android:id="@+id/headername_hard"/>
+		<TextView style="@style/recordcell" 
+			android:text="@string/score" 
+			android:id="@+id/headergrade_hard"/>
+	</TableRow>
+
+	<TableLayout 
+		android:id="@+id/recordlayout_hard" 
+		style="@style/wFPhWC">
+	</TableLayout>
+	
+	<Button 
+		android:id="@+id/resetrecord_hard" 
+		android:layout_width="130px" 
+		android:layout_height="wrap_content" 
+    	android:text="@string/reset"
+    	android:layout_gravity="center">
+	</Button>  
+					     	
+  </LinearLayout>
+
+</ScrollView>

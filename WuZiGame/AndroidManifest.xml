@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest package="oms.cj.WuZiGame" xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="1.1.11" android:versionCode="14">
+    <application android:icon="@drawable/wuzilogo60x60"
+        android:label="@string/app_name">
+        <activity android:label="@string/app_name" android:name=".WuZiGame" android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity> 
+        <activity android:name=".newgame" android:configChanges="orientation|keyboardHidden"/>
+        <activity android:name=".config" android:configChanges="orientation|keyboardHidden"/>
+        <activity android:name=".highscore" android:configChanges="orientation|keyboardHidden"/>
+        <activity android:name="help" android:configChanges="orientation|keyboardHidden"/>
+        <service android:name="oms.cj.musicservice.MusicService"/>
+        
+        <!-- wooboo -->
+        <meta-data android:value="7fae6340a4454058ab56d56975ccc5d7" android:name="Wooboo_PID"/>
+		<meta-data android:value="1" android:name="Market_ID"/>
+		<activity android:name="com.wooboo.adlib_android.AdActivity" 
+		          android:configChanges="orientation|keyboardHidden" 
+		          android:launchMode="singleTask" />
+		<activity android:name="com.wooboo.adlib_android.FullActivity"
+		          android:configChanges="orientation|keyboardHidden" 
+		          android:launchMode="singleTask"/>
+
+		<!-- youmi -->
+		<activity android:name="net.youmi.android.AdActivity"
+			android:configChanges="keyboard|keyboardHidden|orientation"/>
+		<meta-data android:name="YOUMI_CHANNEL" android:value="10020" />
+		
+		<!-- wostore -->
+		<activity android:name="com.wostore.adsdk.ADFSView"/>
+		<meta-data android:value="000000002131" android:name="PUBLISHER_ID" />
+
+		<!-- waps -->
+		<activity android:name="com.waps.OffersWebView"/>
+		<meta-data android:name="WAPS_ID" android:value="f54f5329127132fd4cd33c7733e4621d" />
+		<meta-data android:name="WAPS_PID" android:value="gfan" /> 
+		
+		<!-- mm -->
+		<activity android:name="oms.cj.ads.MMInterstitialActivity"
+			android:configChanges="keyboard|keyboardHidden|orientation"/>
+						
+    </application>
+
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />	
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />	
+	<uses-permission android:name="android.permission.GET_TASKS" />	
+	<uses-sdk android:minSdkVersion="3" android:targetSdkVersion="5"></uses-sdk>
+	
+</manifest>

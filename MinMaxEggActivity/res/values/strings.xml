@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="floors">层数</string>
+    <string name="app_name">MinMaxEgg</string>
+<string name="eggs">鸡蛋数</string>
+<string name="start">求解</string>
+<string name="answers">答案</string>
+<string name="minmaxexample">最坏情况举例</string>
+</resources>

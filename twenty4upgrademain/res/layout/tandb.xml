@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/tandb">
+    
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" 
+	 		android:textSize="20px" android:textStyle="bold" android:text="已达试用上限，按确定购买，取消退出!"/>
+	<TextView android:layout_width="fill_parent" android:layout_height="wrap_content" 
+	 		android:textSize="20px" android:textStyle="bold" android:id="@+id/price"/>
+	
+	<Button android:id="@+id/buy" android:layout_width="130px" android:layout_height="wrap_content" 
+    		android:text="购买" />
+    <Button android:id="@+id/quitapp" android:layout_width="130px" android:layout_height="wrap_content" 
+    		android:text="取消" />
+    
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+  
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+  	xmlns:adsdk="http://schemas.android.com/apk/res/oms.cj.tube"  
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1,2">
+  <TableRow>
+	<include layout="@layout/solutiondetailstitle" />
+  </TableRow>
+  
+  <include layout="@layout/adstub" />
+   		
+  <TableRow>
+  	<ImageView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:src="@drawable/step2_1">
+  	</ImageView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="前章目标状态  ">
+  	</TextView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="把四个小棱块\n逐一对好侧面\n颜色,然后翻下去">
+  	</TextView>
+  	<Button android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="动画"
+  		android:id="@+id/step2_1">
+  	</Button>
+  </TableRow>
+  
+  <include layout="@layout/browsebuttonslayout"/>	
+  
+</TableLayout>

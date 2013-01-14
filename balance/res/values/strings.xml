@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="hello">Hello World, balance!</string>
+<string name="app_name">MagicBall</string>
+<string name="easy">Easy</string>
+<string name="medium">Medium</string>
+<string name="hard">Hard</string>
+<string name="debugon">On</string>
+<string name="debugoff">Off</string>
+<string name="ballstyle">Color</string>
+<string name="altstyle">Shape</string>
+<string name="astrostyle">Astro</string>
+<string name="normalbk">Normal</string>
+<string name="blueskybk">BlueSky</string>
+<string name="matrixbk">MATRIX</string>
+<string name="topleft">TopLeft</string>
+<string name="topright">TopRight</string>
+<string name="moveoff">Off</string>
+<string name="debugswitch">Debug Switch</string>
+<string name="difficulty">Difficulty</string>
+<string name="style">Style</string>
+<string name="background">Background</string>
+<string name="save">Save</string>
+<string name="cancel">Cancel</string>
+<string name="moveshow">When Drag</string>
+<string name="newgame">New Game</string>
+<string name="highscore">HighScore</string>
+<string name="the9highscore">OF HighScore</string>
+<string name="settings">Settings</string>
+<string name="help">Help</string>
+<string name="about">About</string>
+<string name="quit">Quit</string>
+<string name="reset">Reset</string>
+<string name="order">Order</string>
+<string name="name">Name</string>
+<string name="score">Score</string>
+<string name="first5record">Congratulation! First 5 Records!</string>
+<string name="noname">Anchorite</string>
+<string name="submit2the9">GameOver! Click OK to submit!</string>
+<string name="illegalmove">Illegal Move！</string>
+<string name="reminder">Reminder Dialog</string>
+<string name="inputurname">Please Input Your Name:</string>
+<string name="aboutinfo">Author: %1$s\nEmail: %2$s\nCopyRight:   %3$s\n</string>
+<string name="author">ChenJian</string>
+<string name="email">whogiawho@gmail.com</string>
+<string name="copyright">2009-2011</string>
+
+<color name="testcolor2">#ff0000</color>
+<color name="testcolor5">#ffff00</color>
+
+<string name="fmtGameName">游戏名：%s\n</string>
+<string name="fmtVersion">版本号：%s\n</string>
+<string name="fmtReleaser">发行商：%s\n</string>
+<string name="fmtDeveloper">开发商：%s\n</string>
+<string name="fmtPhone">客服电话：%s\n</string>
+<string name="fmtEmail">客服email：%s\n</string>
+
+<string name="Releaser">上海第九城市信息技术有限公司</string>
+<string name="Developer">陈剑</string>
+<string name="Phone">021-51729118</string>
+<string name="Email">service@m.the9.com</string>
+    
+<string name="freecoins">Get Coins!</string>
+</resources>

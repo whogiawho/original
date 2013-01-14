@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+<LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:id="@+id/object7">
+  
+  <TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dip"
+    android:textSize="32dip"
+    android:text="本章目标" 
+    android:layout_gravity="center_horizontal"/>	  
+  
+  <include layout="@layout/adstub" />
+  
+  <ImageView android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:src="@drawable/object7" />
+  		
+  <TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dip"
+    android:text="前章完成了顶面黄色复原\n本章在前章基础上调整好顶面4个角色块的顺序\n" 
+    android:layout_gravity="center_horizontal"/>	 
+     
+  <include layout="@layout/browsebuttonslayout"/>	
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<oms.cj.tube.camera.CamLayer  
+		android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:id="@+id/camerapreview"/>
+	
+	<LinearLayout android:layout_gravity="right" 
+    	android:orientation="vertical" 
+    	android:layout_width="170.0dip" 
+    	android:layout_height="fill_parent">
+    	
+      	<TextView android:gravity="center"
+      		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content"
+    		android:id="@+id/texthint"
+    		android:textSize="45dp"/>
+    	
+    	<RelativeLayout 
+	  		android:layout_gravity="right" 
+    		android:orientation="vertical" 
+    		android:layout_width="170.0dip" 
+    		android:layout_height="fill_parent"
+    		android:layout_weight=".7"
+    		android:id="@+id/forelayout">
+  			<oms.cj.tube.camera.VisibleSide android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content"
+    			android:id="@+id/leftside"
+    			android:layout_centerVertical="true"
+    			android:layout_alignParentLeft="true"/>  
+			<oms.cj.tube.camera.VisibleSide android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content"
+    			android:id="@+id/frontside" 
+    			android:layout_alignTop="@id/leftside"
+    			android:layout_toRightOf="@id/leftside"/>  
+  			<oms.cj.tube.camera.VisibleSide android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content"
+    			android:id="@+id/topside" 
+    			android:layout_above="@id/frontside"
+    			android:layout_alignLeft="@id/frontside"/>       		 
+  			<oms.cj.tube.camera.VisibleSide android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content"
+    			android:id="@+id/rightside" 
+    			android:layout_toRightOf="@id/frontside"
+    			android:layout_below="@id/topside"/>
+  			<oms.cj.tube.camera.VisibleSide android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content"
+    			android:id="@+id/backside" 
+    			android:layout_toRightOf="@id/rightside"
+    			android:layout_below="@id/topside"/>  
+  			<oms.cj.tube.camera.VisibleSide android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content"
+    			android:id="@+id/bottomside" 
+    			android:layout_below="@id/frontside"
+    			android:layout_alignLeft="@id/frontside"/>  		
+		</RelativeLayout>    	
+		
+		<TextView android:gravity="center"
+      		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content"
+    		android:id="@+id/scanhint"
+    		android:textSize="20dp"/>
+		<ImageButton
+      		android:id="@+id/clickcamera"
+      		android:layout_gravity="bottom|center_horizontal" 
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content"
+    		android:src="@drawable/clickcamera"/>
+
+	</LinearLayout>
+
+</merge>

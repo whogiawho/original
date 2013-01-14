@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/oms.cj.tube"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+	<oms.cj.tube.colorsetter.ColorSetterView
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+   		android:id="@+id/colorsetterview"
+   		app:heightpercent="0.70"/>
+   	
+   	<TextView android:layout_width="fill_parent" 
+   		android:layout_height="wrap_content" 
+   		android:id="@+id/showColor"
+   		android:gravity="center"/>
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/selectColor"
+        android:gravity="center">
+        <RadioButton android:text="@string/red" style="@style/myRadio"
+            android:id="@+id/red" />
+        <RadioButton android:text="@string/orange" style="@style/myRadio"
+            android:id="@+id/orange" />
+        <RadioButton android:text="@string/blue" style="@style/myRadio"
+            android:id="@+id/blue" />
+        <RadioButton android:text="@string/green" style="@style/myRadio"
+            android:id="@+id/green" />
+        <RadioButton android:text="@string/yellow" style="@style/myRadio"
+            android:id="@+id/yellow" />
+        <RadioButton android:text="@string/white" style="@style/myRadio"
+            android:id="@+id/white" />        
+    </RadioGroup>
+    
+	<LinearLayout android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:gravity="center_horizontal">    
+    	<Button android:id="@+id/open" 
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="@string/restore">
+    	</Button>     
+    	<Button android:id="@+id/save" 
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="@string/save">
+    	</Button>       	
+    	<Button android:id="@+id/complete" 
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="@string/complete">
+    	</Button>    
+    	<Button android:id="@+id/camera"
+    	 	android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="@string/camera">  	
+		</Button>      		    	
+	</LinearLayout>
+
+</LinearLayout>

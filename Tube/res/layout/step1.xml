@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+<TableLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:shrinkColumns="1"
+    android:stretchColumns="1,2">
+  <TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dip"
+    android:text="起始状态共有4种可能" 
+    android:textSize="16dip"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"/>	 
+    
+  <TableRow android:paddingTop="5dip">
+	<include layout="@layout/solutiondetailstitle" />
+  </TableRow>
+  <TableRow>
+  	<ImageView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:src="@drawable/step1_1">
+  	</ImageView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="白色块在4个侧面, 且在中间层">
+  	</TextView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="旋转顶层, \n腾出空位">
+  	</TextView>
+  	<Button android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="动画"
+  		android:id="@+id/step1_1">
+  	</Button>
+  </TableRow>
+  
+  <include layout="@layout/adstub" />
+
+  <TableRow>
+  	<ImageView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:src="@drawable/step1_2">
+  	</ImageView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="白色块在4个侧面, 但不在中间层">
+  	</TextView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="化为情况1">
+  	</TextView>
+  	<Button android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="动画"
+  		android:id="@+id/step1_2">
+  	</Button>
+  </TableRow>
+  <TableRow>
+  	<ImageView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:src="@drawable/step1_3">
+  	</ImageView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="白色块在4个侧面, 不在中间层, 且顶层有1白色块 ">
+  	</TextView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="化为情况2">
+  	</TextView>
+  	<Button android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="动画"
+  		android:id="@+id/step1_3">
+  	</Button>
+  </TableRow>
+  <TableRow>
+  	<ImageView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:src="@drawable/step1_4">
+  	</ImageView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="白色块在底层">
+  	</TextView>
+  	<TextView android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="化为情况1">
+  	</TextView>
+  	<Button android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="动画"
+  		android:id="@+id/step1_4">
+  	</Button>
+  </TableRow>
+  
+  <include layout="@layout/browsebuttonslayout"/>	
+  
+</TableLayout>
+
+</ScrollView>

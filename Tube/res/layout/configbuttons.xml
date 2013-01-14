@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/oms.cj.tube"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/configbuttons">
+    <Button 
+        style="@style/wc"
+   		android:text="@string/grow"
+   		android:id="@+id/grow">
+    </Button>
+    
+    <Button
+        style="@style/wc"
+   		android:text="@string/shrink"
+   		android:id="@+id/shrink"
+   		android:layout_toRightOf="@id/grow">
+    </Button>
+    
+    <ImageButton android:id="@+id/previousStep"
+        style="@style/wc"
+    	android:src="@drawable/backward32x32"
+    	android:layout_toRightOf="@id/shrink">
+	</ImageButton>
+	
+    <ImageButton android:id="@+id/nextStep" 
+        style="@style/wc"
+    	android:src="@drawable/forward32x32"
+    	android:layout_toRightOf="@id/previousStep">
+    </ImageButton>	    
+</RelativeLayout>

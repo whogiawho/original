@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent"
+    android:layout_width="fill_parent" 
+    android:orientation="vertical">
+    
+  <LinearLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:orientation="vertical"
+	  android:id="@+id/config"
+	  android:paddingTop="10dp">
+	        
+	<TextView android:text="@string/optionalway" 
+			style="@style/hinttext1"/>
+	<RadioGroup android:id="@+id/solveWay" 
+			style="@style/radiogroup1">
+    	<RadioButton android:id="@+id/basicSolve" 
+    		android:text="@string/basicSolve" 
+        	style="@style/radiobutton1"/>
+    	<RadioButton android:id="@+id/fridchSolve" 
+    		android:text="@string/fridchSolve" 
+        	style="@style/radiobutton1"/>    
+    	<RadioButton android:id="@+id/advancedSolve" 
+    		android:text="@string/advancedSolve" 
+        	style="@style/radiobutton1"/>         				
+    </RadioGroup>
+      
+	<TextView android:text="@string/idswitch" 
+	 		style="@style/hinttext1"/>
+	<RadioGroup android:id="@+id/idswitchgroup" 
+			style="@style/radiogroup1">
+    	<RadioButton android:id="@+id/noid" 
+    		android:text="@string/noid" 
+        	style="@style/radiobutton1" />
+    	<RadioButton android:id="@+id/cubeid" 
+    		android:text="@string/cubeid" 
+        	style="@style/radiobutton1" />         		  		
+    </RadioGroup>
+       
+	<TextView android:text="@string/cameraTimesLabel"
+    	    android:id="@+id/cameraTimesLabel"
+      		style="@style/hinttext1"/>
+	<RadioGroup android:id="@+id/cameraWay" 
+			style="@style/radiogroup1">
+    	<RadioButton android:id="@+id/cameraWay1" 
+    		android:text="@string/cameraWay1" 
+        	style="@style/radiobutton1" />
+    	<RadioButton android:id="@+id/cameraWay2" 
+    		android:text="@string/cameraWay2" 
+        	style="@style/radiobutton1" /> 
+    	<RadioButton android:id="@+id/cameraWay3"
+    		android:text="@string/cameraWay3" 
+        	style="@style/radiobutton1" 
+        	android:enabled="false" />      	
+    	<RadioButton android:id="@+id/cameraWay4"
+    		android:text="@string/cameraWay4" 
+        	style="@style/radiobutton1" 
+        	android:enabled="false" />      	
+    </RadioGroup> 
+  
+	<include layout="@layout/adstub" />
+    
+    <TableLayout android:stretchColumns="0,1,2"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">  
+      	<TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
+	    	<TextView
+    	    android:id="@+id/speedLabel"
+      		style="@style/hinttext2"
+       		android:text="@string/size" />
+    		<EditText android:maxLength="2"
+        		android:id="@+id/tubesize"
+        		style="@style/edittext1" />
+	  	</TableRow>
+    
+      	<TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
+	    	<TextView
+    	    	android:id="@+id/speedLabel"
+      			style="@style/hinttext2"
+       			android:text="@string/speed" />
+    		<EditText android:maxLength="3"
+        		android:id="@+id/speed"
+        		style="@style/edittext1" />
+	  	</TableRow>
+    
+      	<TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
+	    	<TextView
+    	    	android:id="@+id/randomRotateNLabel"
+      			style="@style/hinttext2"
+       			android:text="@string/shuffle" />
+    		<EditText android:maxLength="2"
+        		android:id="@+id/randomRotateN"
+        		style="@style/edittext1" />
+	  	</TableRow>		
+
+      	<TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
+	    	<TextView
+      			style="@style/hinttext2"
+       			android:text="@string/study1" />
+    		<ImageView
+        		android:id="@+id/defineyellow"
+        		style="@style/colorcell" />
+    		<ImageView
+        		android:id="@+id/definewhite"
+        		style="@style/colorcell" />	
+	  	</TableRow>	
+	  
+      	<TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
+	    	<TextView
+      			style="@style/hinttext2"
+       			android:text="@string/study2" />
+    		<ImageView
+        		android:id="@+id/definered"
+        		style="@style/colorcell" />
+    		<ImageView
+        		android:id="@+id/defineorange"
+        		style="@style/colorcell" />	
+	  	</TableRow>
+	  
+      	<TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
+	    	<TextView
+      			style="@style/hinttext2"
+       			android:text="@string/study3" />
+    		<ImageView
+        		android:id="@+id/defineblue"
+        		style="@style/colorcell" />
+    		<ImageView
+        		android:id="@+id/definegreen"
+        		style="@style/colorcell" />
+	  	</TableRow>
+    </TableLayout>	
+    		
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<Button android:id="@+id/saveref" 
+			android:layout_width="120dp" 
+			android:layout_height="wrap_content" 
+    		android:text="@string/save" />
+		<Button android:id="@+id/cancelref" 
+			android:layout_width="120dp" 
+			android:layout_height="wrap_content" 
+    		android:text="@string/cancel" />	
+	</LinearLayout>
+
+  </LinearLayout>
+</ScrollView>

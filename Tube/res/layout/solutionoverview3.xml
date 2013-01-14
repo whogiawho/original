@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+	<LinearLayout
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:orientation="vertical">
+  
+  		<TextView android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:paddingTop="5dip"
+    		android:textSize="24dip"
+    		android:text="白色块仅可能处在6种位置" 
+    		android:layout_gravity="center_horizontal"/>	  
+
+  		<ImageView android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:src="@drawable/possibilities3" />
+
+		<TextView android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:paddingTop="5dip"
+    		android:text="提示：\n1. C,E,D,F均可以转化成A或B\n2. 所以关键在于求解A和B\n3. 白色角块是要移到它的垂直顶层\n4. 为了成T字形，白色角块应移到正确\n位置，即其余2面颜色必须分别和此位\n置的2个侧面的2个中心块颜色一致. " 
+    		android:layout_gravity="center_horizontal"/>	 
+  
+		<include layout="@layout/adstub" />
+   		
+  		<include layout="@layout/browsebuttonslayout"/>		
+	
+	</LinearLayout>
+
+</ScrollView>

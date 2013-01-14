@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, genActionsActivity!</string>
+    <string name="app_name">genActions</string>
+<string name="step4.1">step4.1</string>
+<string name="step4.2">step4.2</string><string name="step4.3">step4.3</string><string name="step5.1">step5.1</string><string name="step5.2">step5.2</string><string name="step5.3">step5.3</string>
+</resources>

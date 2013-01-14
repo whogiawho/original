@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+  	
+  	<TextView android:text="起始状态"
+		style="@style/title"/>
+		
+  	<TextView android:text="注解"
+  		style="@style/title"/>
+  		
+  	<TextView android:text="解决方法"
+		style="@style/title"/>
+
+  	<TextView android:text="动画"
+		style="@style/title"/>
+
+</merge>

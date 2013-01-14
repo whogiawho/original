@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="/media/data/download/youmi-android-sdk-v3.03_2011-9-30/lib/youmi-android-v3.03_2011-9-30.jar"/>
+	<classpathentry kind="lib" path="/media/data/download/MM/SDK/MMBridgeAndroidAPI.jar"/>
+	<classpathentry kind="lib" path="/media/data/download/AppOffer_1.6/AppOffer_1.6.jar"/>
+	<classpathentry kind="lib" path="/media/data/download/Wooboo_SDK_2.2_Android/wooboo原版/adlib_android.jar"/>
+	<classpathentry kind="lib" path="/media/data/download/wostore/wostoreAD.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

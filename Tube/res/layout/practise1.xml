@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/oms.cj.tube"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:id="@+id/practise1">
+
+	<include layout="@layout/adstub" />
+
+	<RelativeLayout 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+    	
+  		<TextView android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:text="很容易吧？趁热打铁赶紧实战一下吧！"
+  			android:textStyle="bold" android:textColor="@color/yellow"
+  			android:textColorHighlight="@color/yellow" 
+  			android:textSize="24dp"
+  			android:layout_alignParentTop="true"
+  			android:layout_centerHorizontal="true"
+  			android:id="@+id/practisetitle"/>
+  
+    	<oms.cj.tube.tutor.TutorQuizView
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content" 
+   			app:randomized="true"
+   			app:heightpercent="0.80"
+   			app:override="false"
+   			android:layout_below="@+id/practisetitle"
+   			android:id="@+id/practiseview"/>
+    
+		<include layout="@layout/practisebuttons" />
+	</RelativeLayout>		
+</LinearLayout>

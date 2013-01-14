@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView android:layout_height="fill_parent"
+    android:layout_width="fill_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@+id/config"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent" android:orientation="vertical">
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/xianhoushou"
+            android:textColor="#000000" android:textSize="15px" android:textStyle="bold"/>
+        <RadioGroup android:id="@+id/xianhougroup"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" android:orientation="horizontal">
+            <RadioButton android:id="@+id/blackxianrun"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/black" android:textColor="#ff8000"/>
+            <RadioButton android:id="@+id/whitehourun"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/white" android:textColor="#ff8000"/>
+        </RadioGroup>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/voiceswitch"
+            android:textColor="#000000" android:textSize="15px" android:textStyle="bold"/>
+        <RadioGroup android:id="@+id/voiceswitch"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" android:orientation="horizontal">
+            <RadioButton android:id="@+id/voiceon"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/voiceon" android:textColor="#ff8000"/>
+            <RadioButton android:id="@+id/voiceoff"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/voiceoff" android:textColor="#ff8000"/>
+        </RadioGroup>
+        
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/soundeffects"
+            android:textColor="#000000" android:textSize="15px" android:textStyle="bold"/>
+        <RadioGroup android:id="@+id/soundeffects"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" android:orientation="horizontal">
+            <RadioButton android:id="@+id/soundon"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/soundon" android:textColor="#ff8000"/>
+            <RadioButton android:id="@+id/soundoff"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/soundoff" android:textColor="#ff8000"/>
+        </RadioGroup>
+        
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/difficulty"
+            android:textColor="#000000" android:textSize="15px" android:textStyle="bold"/>
+        <RadioGroup android:id="@+id/difficulty"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" android:orientation="horizontal">
+            <RadioButton android:id="@+id/easy"
+                android:text="@string/easy" 
+                style="@style/radiobutton"/>
+            <RadioButton android:id="@+id/medium"
+                android:text="@string/medium" 
+                style="@style/radiobutton"/>
+            <RadioButton android:id="@+id/littlehard"
+                android:text="@string/littlehard" 
+                style="@style/radiobutton"/>
+            <RadioButton android:id="@+id/hard"
+                android:text="@string/hard" 
+                style="@style/radiobutton"/>
+            <RadioButton android:id="@+id/impossible"
+                android:text="@string/impossible"
+				style="@style/radiobutton"/>                
+        </RadioGroup>
+        
+		<include layout="@layout/adstub" />
+		
+        <TextView android:id="@+id/strategylabel"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/strategy" android:textColor="#000000"
+            android:textSize="15px" android:textStyle="bold"/>
+        <RadioGroup android:id="@+id/strategy"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" android:orientation="horizontal">
+            <RadioButton android:id="@+id/attack"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/attack" android:textColor="#ff8000"/>
+            <RadioButton android:id="@+id/defend"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/defend" android:textColor="#ff8000"/>
+            <RadioButton android:id="@+id/adbalance"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/adbalance" android:textColor="#ff8000"/>
+        </RadioGroup>
+        <TextView android:id="@+id/jinshoulabel"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/jinshou" android:textColor="#000000"
+            android:textSize="15px" android:textStyle="bold"/>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent">
+            <CheckBox android:id="@+id/checksansan"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/checksansan" android:textColor="#ff8000"/>
+            <CheckBox android:id="@+id/checksisi"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/checksisi" android:textColor="#ff8000"/>
+            <CheckBox android:id="@+id/checkchanglian"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/checkchanglian" android:textColor="#ff8000"/>
+        </LinearLayout>
+        <TextView android:id="@+id/hitboardlabel"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/whattodowhenhitboard"
+            android:textColor="#000000" android:textSize="15px" android:textStyle="bold"/>
+        <RadioGroup android:id="@+id/whenhitboard"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" android:orientation="horizontal">
+            <RadioButton android:id="@+id/movefocusonly"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/movefocusonly" android:textColor="#ff8000"/>
+            <RadioButton android:id="@+id/movefocusandluozi"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/movefocusandluozi" android:textColor="#ff8000"/>
+        </RadioGroup>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent">
+            <Button android:id="@+id/saveref"
+                android:layout_height="wrap_content"
+                android:layout_width="130px" android:text="保存"/>
+            <Button android:id="@+id/cancelref"
+                android:layout_height="wrap_content"
+                android:layout_width="130px" android:text="取消"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

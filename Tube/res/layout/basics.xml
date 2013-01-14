@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/basics">
+    
+  <RelativeLayout
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent">  
+  	
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  		android:src="@drawable/cubejargons" 
+  		android:layout_alignParentTop="true"
+  		android:layout_centerHorizontal="true"
+  		android:id="@+id/basics1"/>
+  		
+    <LinearLayout android:orientation="vertical"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@id/basics1"
+    	android:id="@+id/basics2">
+  		<TextView android:layout_width="wrap_content" android:paddingTop="5dip"
+    		android:layout_height="wrap_content"
+    		android:text="上图告诉了我们什么是棱色块，中心块和角色块" />
+    	<TextView android:layout_width="wrap_content" android:paddingTop="5dip"
+    		android:layout_height="wrap_content"
+    		android:text="    角色块：有3个可见颜色面的块，共8个" />
+    	<TextView android:layout_width="wrap_content" android:paddingTop="5dip"
+    		android:layout_height="wrap_content"
+    		android:text="    棱色块：有2个可见颜色面的块，共12个" />	
+    	<TextView android:layout_width="wrap_content" android:paddingTop="5dip"
+    		android:layout_height="wrap_content"
+    		android:text="    中心块：只有1个可见颜色面的块，共6个" />
+		
+		<include layout="@layout/adstub" />		
+  	</LinearLayout>
+
+  	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  		android:paddingTop="5dip"
+    	android:text="中心块相对位置永远不变，一定是红橙相对，蓝绿相对，黄白相对；中心块是什么颜色，这一面最后就会是什么颜色。大家注意黄白中心块永远是相对的" 
+    	android:layout_below="@id/basics2"
+  		android:id="@+id/basics3"/>	
+  	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  		android:paddingTop="5dip"
+    	android:text="层的标记：上图标出了3层，即前, 右, 上；和它们向对的3层是后，左，下；而且前后，上下，左右各夹1层；所以共9层(前,右,上,后,左,下,站,中,赤)，英文缩写为(F,R,U,B,L,D,S,M,E)" 
+    	android:layout_below="@id/basics3"
+  		android:id="@+id/basics4"/>	
+   
+  	<TextView android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:paddingTop="5dip"
+    	android:text="掌握了这些基本概念，我们再来看看如何用符号来表示各层的顺逆时针旋转" 
+    	android:layout_below="@id/basics4"
+  		android:id="@+id/basics5"/>	
+
+    <Button android:id="@+id/previous"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/Previous"
+    	android:layout_alignParentLeft="true"
+    	android:layout_alignParentBottom="true"
+    	android:layout_below="@id/basics5">
+    </Button>
+    <Button android:id="@+id/toc"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/TOC"
+    	android:layout_centerHorizontal="true"
+    	android:layout_alignParentBottom="true"
+    	android:layout_below="@id/basics5">
+    </Button>
+    <Button android:id="@+id/next" 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/Next"
+    	android:layout_alignParentRight="true"
+    	android:layout_alignParentBottom="true"
+    	android:layout_below="@id/basics5">
+    </Button>
+    
+  </RelativeLayout>		
+
+</ScrollView>

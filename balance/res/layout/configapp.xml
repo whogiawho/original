@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+<LinearLayout 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:paddingTop="40px"> 	  
+	  	
+	<TextView 
+		android:text="@string/difficulty" 
+		style="@style/radiogrouplabel"/>
+	<RadioGroup 
+		android:id="@+id/levelgroup" 
+		style="@style/wc"
+     	android:orientation="horizontal">
+    	<RadioButton 
+    		android:id="@+id/leveleasy"
+			style="@style/radiobutton"
+        	android:text="@string/easy"/>
+    	<RadioButton 
+    		android:id="@+id/levelmedium"
+    		android:text="@string/medium"
+        	style="@style/radiobutton"/>
+    	<RadioButton 
+    		android:id="@+id/levelhard"
+    		android:text="@string/hard"
+        	style="@style/radiobutton"/>
+	</RadioGroup>
+
+	<TextView 
+		android:text="@string/debugswitch"
+		style="@style/radiogrouplabel"/>
+	<RadioGroup 
+		android:id="@+id/debuggroup" 
+		style="@style/wc"
+     	android:orientation="horizontal">
+    	<RadioButton 
+    		android:id="@+id/debugon"
+    		android:text="@string/debugon"
+        	style="@style/radiobutton"/>
+    	<RadioButton 
+    		android:id="@+id/debugoff"
+    		android:text="@string/debugoff"
+        	style="@style/radiobutton"/>
+    </RadioGroup>
+
+	<TextView 
+		android:text="@string/moveshow"
+		style="@style/radiogrouplabel"/>
+	<RadioGroup 
+		android:id="@+id/moveshowgroup" 
+		style="@style/wc"
+     	android:orientation="horizontal">
+    	<RadioButton 
+    		android:id="@+id/topleft"
+    		android:text="@string/topleft"
+        	style="@style/radiobutton"/>
+    	<RadioButton 
+    		android:id="@+id/topright"
+    		android:text="@string/topright"
+        	style="@style/radiobutton"/>
+    	<RadioButton 
+    		android:id="@+id/moveoff"
+    		android:text="@string/moveoff"
+        	style="@style/radiobutton"/>        	
+    </RadioGroup>
+    
+	<include layout="@layout/adstub" />
+
+	<TextView 
+		android:text="@string/style" 
+		style="@style/radiogrouplabel"/>
+	<RadioGroup 
+		android:id="@+id/stylegroup" 
+		style="@style/wc"
+     	android:orientation="horizontal">
+    	<RadioButton 
+    		android:id="@+id/ballstyle"
+    		android:text="@string/ballstyle"
+        	style="@style/radiobutton"/>
+    	<RadioButton 
+    		android:id="@+id/altstyle"
+    		android:text="@string/altstyle"
+        	style="@style/radiobutton"/>
+    	<RadioButton 
+    		android:id="@+id/astrostyle"
+    		android:text="@string/astrostyle"
+        	style="@style/radiobutton"/>        	
+    </RadioGroup>
+	
+	<TextView 
+		android:text="@string/background" 
+		style="@style/radiogrouplabel"/>
+	<RadioGroup 
+		android:id="@+id/backgroundgroup" 
+		style="@style/wc"
+     	android:orientation="horizontal">
+    	<RadioButton 
+    		android:id="@drawable/base1"
+    		android:text="@string/normalbk"
+        	style="@style/radiobutton"/>
+    	<RadioButton 
+    		android:id="@drawable/base2"
+    		android:text="@string/blueskybk"
+        	style="@style/radiobutton"/>
+    	<RadioButton 
+    		android:id="@drawable/base3"
+    		android:text="@string/matrixbk"
+        	style="@style/radiobutton"/>        	
+    </RadioGroup>
+	
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+		<Button 
+			android:id="@+id/saveref" 
+			android:layout_width="130px" 
+			android:layout_height="wrap_content" 
+    		android:text="@string/save" />
+		<Button 
+			android:id="@+id/cancelref" 
+			android:layout_width="130px" 
+			android:layout_height="wrap_content" 
+    		android:text="@string/cancel" />	
+	</LinearLayout>
+	
+</LinearLayout>
+
+</ScrollView>

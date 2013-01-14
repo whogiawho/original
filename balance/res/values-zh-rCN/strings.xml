@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="hello">Hello World, balance!</string>
+<string name="app_name">快乐魔球</string>
+<string name="easy">简单</string>
+<string name="medium">适中</string>
+<string name="hard">困难</string>
+<string name="debugon">打开</string>
+<string name="debugoff">关闭</string>
+<string name="ballstyle">颜色</string>
+<string name="altstyle">形状</string>
+<string name="astrostyle">星座</string>
+<string name="normalbk">一般</string>
+<string name="blueskybk">蓝天</string>
+<string name="matrixbk">MATRIX</string>
+<string name="topleft">左上角</string>
+<string name="topright">右上角</string>
+<string name="moveoff">关闭拖动</string>
+<string name="debugswitch">测试开关</string>
+<string name="difficulty">难度</string>
+<string name="style">棋子风格</string>
+<string name="background">背景图片</string>
+<string name="save">保存</string>
+<string name="cancel">取消</string>
+<string name="moveshow">拖动时显示在</string>
+<string name="newgame">新游戏</string>
+<string name="highscore">本机排行榜</string>
+<string name="the9highscore">九城排行榜</string>
+<string name="settings">设置</string>
+<string name="help">帮助</string>
+<string name="about">关于</string>
+<string name="quit">退出</string>
+<string name="first5record">恭喜进入本机前5名！</string>
+<string name="noname">无名</string>
+<string name="submit2the9">游戏结束！点击OK提交成绩到九城</string>
+<string name="illegalmove">非法移动！</string>
+<string name="reminder">提示对话框</string>
+<string name="inputurname">请输入您的大名：</string>
+<string name="aboutinfo">作者：%1$s\n电邮：%2$s\n版权所有：   %3$s\n</string>
+<string name="author">陈剑</string>
+<string name="email">whogiawho@gmail.com</string>
+<string name="copyright">2009-2011</string>
+    
+<color name="testcolor2">#ff0000</color>
+<color name="testcolor5">#ffff00</color>
+
+<string name="freecoins">免费赚积分！</string>
+</resources>

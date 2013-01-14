@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="directToOfferList">免费体验已结束！您可以花费%1$d积分一次解锁整个游戏（当前%2$d积分）！现在要去免费赚积分吗？</string>
+	<string name="getCoinsNow">Get Coins now!</string>
+	<string name="ok">OK</string>
+	<string name="cancel">Cancel</string>
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+<string name="app_name">快乐魔方</string>
+<string name="faceidswitchon">打开</string>
+<string name="faceidswitchoff">关闭</string>
+<string name="noid">无</string>
+
+<string name="cubeid">方块标识</string>
+<string name="red">红</string>
+<string name="orange">橙</string>
+<string name="green">绿</string>
+<string name="blue">蓝</string>
+<string name="yellow">黄</string>
+<string name="white">白</string>
+<string name="title">尊贵的主人</string>
+<string name="setcolor">尊贵的主人，请告诉我魔方各面颜色</string>
+<string name="solvecube">魔方求解</string>
+<string name="starttosolve">开始求解</string>
+<string name="hintcube">拍照提示</string>
+<string name="recheck">颜色已改变，请重新检查！</string>
+<string name="play">播放</string>
+<string name="pause">暂停</string>
+<string name="nextStep">下步</string>
+<string name="previousStep">上步</string>
+<string name="basicSolve">初级</string>
+<string name="fridchSolve">中级</string>
+<string name="advancedSolve">高级</string>
+<string name="reset">开头</string>
+<string name="hintofway1">点击下图以拍各面</string>
+<string name="hintofway1step1">第1次照“前”面</string>
+<string name="hintofway1step2">第2次照“右”面</string>
+<string name="hintofway1step3">第3次照“后”面</string>
+<string name="hintofway1step4">第4次照“左”面</string>
+<string name="hintofway1step5">第5次照“顶”面</string>
+<string name="hintofway1step6">第6次照“底”面</string>
+<string name="hintofway2step1">第一次拍3个面：顶，前，右</string>
+<string name="hintofway2step2">第2次拍3个面：底，左，后</string>
+<string name="start">开始</string>
+<string name="randomcube">玩魔方</string>
+<string name="origincube">原始魔方</string>
+<string name="cubesolver">魔方求解</string>
+<string name="mofangmiji">入门教材</string>
+<string name="restore">载入魔方</string>
+<string name="settings">设置</string>
+<string name="thanks">致谢</string>
+<string name="about">关于</string>
+<string name="help">帮助</string>
+<string name="exit">退出</string>
+<string name="check">检查</string>
+<string name="complete">完成</string>
+<string name="camera">照相模式</string>
+<string name="idswitch">标识开关:   </string>
+<string name="size">魔方大小（1-24）:</string>
+<string name="speed">旋转速度（0-999）:</string>
+<string name="shuffle">随机转n圈（25-99）:</string>
+<string name="study1">学习黄、白色:</string>
+<string name="study2">学习红、橙色:</string>
+<string name="study3">学习蓝、绿色:</string>
+<string name="save">保存</string>
+<string name="cancel">取消</string>
+<string name="switchid">标识切换</string>
+<string name="mainmenu">主菜单</string>
+<string name="cameraTimesLabel">拍照次数:</string>
+<string name="cameraWay1">6次</string>
+<string name="cameraWay2">2次</string>
+<string name="loading">第一次运行，数据加载中 ...</string>
+<string name="optionalway">解法选择</string>
+<string name="grow">增大</string>
+<string name="shrink">减小</string>
+<string name="animation">动画演示</string>
+    
+<string name="End">结束</string>
+<string name="Previous">前页</string>
+<string name="Next">后页</string>
+<string name="TOC">目录</string>
+
+<string name="the9gamecenter">九城游戏中心</string>
+<string name="recovercubesuccess">复原魔方成功！</string>
+
+<string name="fmtGameName">游戏名：%s\n</string>
+<string name="fmtVersion">版本号：%s\n</string>
+<string name="fmtReleaser">发行商：%s\n</string>
+<string name="fmtDeveloper">开发商：%s\n</string>
+<string name="fmtPhone">客服电话：%s\n</string>
+<string name="fmtEmail">客服email：%s\n</string>
+
+<string name="Releaser">上海第九城市信息技术有限公司</string>
+<string name="Developer">陈剑</string>
+<string name="Phone">021-51729118</string>
+<string name="Email">service@m.the9.com</string>
+
+<string name="ScorePosted">成绩已提交.</string>
+<string name="BlobUploaded">Blob已上载.</string>
+<string name="fmtErrScorePost">提交成绩报错：(%s).</string>
+<string name="fmtErrBlobUpload">上载Blob报错：(%s).</string>
+<string name="fmtReadingScore">"读取成绩报错：(%s)."</string>
+
+<string name="feedback">反馈QQ：1178278431</string>
+<string name="chapter1">第1章    路线和基本概念</string>    
+<string name="chapter2">第2章    顶上小花</string>
+<string name="chapter3">第3章    底面十字</string>
+<string name="chapter4">第4章    底面对好</string>
+<string name="chapter5">第5章    底下两层复原</string>
+<string name="chapter6">第6章    顶层十字</string>
+<string name="chapter7">第7章    对好顶层</string>
+<string name="chapter8">第8章    顶层角块调整</string>
+<string name="chapter9">第9章    顶层棱块调整</string>
+
+<string name="freecoins">免费赚积分</string>
+</resources>

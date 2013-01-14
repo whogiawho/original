@@ -1,0 +1,12 @@
+<resources>
+<style name="fpwc">
+	<item name="android:layout_width">fill_parent</item>
+	<item name="android:layout_height">wrap_content</item>
+</style>
+
+<style name="wcwc">
+	<item name="android:layout_width">wrap_content</item>
+	<item name="android:layout_height">wrap_content</item>
+</style>
+<style name="fpfp"><item name="android:layout_width">fill_parent</item><item name="android:layout_height">fill_parent</item></style>
+</resources>
